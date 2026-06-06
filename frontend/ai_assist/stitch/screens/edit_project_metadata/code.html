@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Edit Project Metadata</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#13a4ec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101c22",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        /* Custom scrollbar for better mobile feel if needed, though mostly relying on native */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display antialiased text-slate-900 dark:text-slate-100 min-h-screen flex justify-center">
+<div class="relative flex h-full min-h-screen w-full max-w-md flex-col bg-background-light dark:bg-background-dark shadow-2xl overflow-hidden mx-auto border-x border-slate-200 dark:border-slate-800">
+<!-- Header -->
+<header class="sticky top-0 z-50 flex items-center bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md p-4 border-b border-slate-200 dark:border-slate-800">
+<button class="flex size-10 shrink-0 items-center justify-center rounded-full active:bg-slate-200 dark:active:bg-slate-700 transition-colors text-slate-800 dark:text-slate-200">
+<span class="material-symbols-outlined">arrow_back_ios_new</span>
+</button>
+<h2 class="text-slate-900 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-10">Edit Metadata</h2>
+</header>
+<!-- Main Content (Scrollable) -->
+<main class="flex-1 overflow-y-auto pb-32">
+<!-- Section: Identification -->
+<section class="mt-4">
+<div class="flex items-center justify-between px-6 pb-2 pt-2">
+<h3 class="text-slate-900 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Identification</h3>
+<span class="material-symbols-outlined text-primary text-xl">fingerprint</span>
+</div>
+<div class="flex flex-col gap-5 px-6 py-3">
+<!-- Project Reference (Read Only) -->
+<label class="flex flex-col w-full">
+<p class="text-slate-600 dark:text-slate-400 text-sm font-medium leading-normal pb-2">Project Reference #</p>
+<div class="flex w-full items-stretch rounded-lg overflow-hidden ring-1 ring-slate-200 dark:ring-slate-700 bg-slate-100 dark:bg-slate-800/50">
+<input class="flex w-full min-w-0 flex-1 resize-none border-none bg-transparent h-12 px-4 text-slate-500 dark:text-slate-400 text-base font-normal leading-normal disabled:cursor-not-allowed" disabled="" value="REF-2023-8892X"/>
+<div class="flex items-center justify-center pr-4 text-slate-400 dark:text-slate-500">
+<span class="material-symbols-outlined">lock</span>
+</div>
+</div>
+</label>
+<!-- Container ID -->
+<label class="flex flex-col w-full group">
+<div class="flex justify-between items-center pb-2">
+<p class="text-slate-700 dark:text-slate-300 text-sm font-medium leading-normal group-focus-within:text-primary transition-colors">Container ID</p>
+<span class="text-xs text-primary font-medium bg-primary/10 px-2 py-0.5 rounded">Required</span>
+</div>
+<div class="relative">
+<input class="peer flex w-full min-w-0 flex-1 resize-none rounded-lg text-slate-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 h-12 px-4 text-base font-normal leading-normal transition-shadow placeholder:text-slate-400 uppercase font-mono tracking-wider" placeholder="MSKU 123456 7" type="text"/>
+<div class="absolute right-3 top-3 text-green-500 opacity-0 peer-valid:opacity-100 transition-opacity pointer-events-none">
+<span class="material-symbols-outlined">check_circle</span>
+</div>
+</div>
+<p class="text-xs text-slate-500 pt-1">Format: 4 Letters, 7 Numbers (ISO 6346)</p>
+</label>
+</div>
+</section>
+<div class="h-px bg-slate-200 dark:bg-slate-800 mx-6 my-2"></div>
+<!-- Section: Vessel Info -->
+<section class="mt-2">
+<div class="flex items-center justify-between px-6 pb-2 pt-4">
+<h3 class="text-slate-900 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Vessel Info</h3>
+<span class="material-symbols-outlined text-primary text-xl">directions_boat</span>
+</div>
+<div class="flex flex-col gap-5 px-6 py-3">
+<!-- Vessel Name -->
+<label class="flex flex-col w-full group">
+<p class="text-slate-700 dark:text-slate-300 text-sm font-medium leading-normal pb-2 group-focus-within:text-primary transition-colors">Vessel Name</p>
+<div class="relative flex items-center">
+<input class="flex w-full min-w-0 flex-1 resize-none rounded-lg text-slate-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 h-12 px-4 pl-11 text-base font-normal leading-normal transition-shadow" value="Maersk Kensington"/>
+<span class="material-symbols-outlined absolute left-3 text-slate-400">directions_boat</span>
+</div>
+</label>
+<!-- Voyage Number & Operator -->
+<div class="flex gap-4">
+<label class="flex flex-col w-1/2 group">
+<p class="text-slate-700 dark:text-slate-300 text-sm font-medium leading-normal pb-2 group-focus-within:text-primary transition-colors">Voyage No.</p>
+<input class="flex w-full min-w-0 flex-1 resize-none rounded-lg text-slate-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 h-12 px-4 text-base font-normal leading-normal transition-shadow" value="304E"/>
+</label>
+<label class="flex flex-col w-1/2 group">
+<p class="text-slate-700 dark:text-slate-300 text-sm font-medium leading-normal pb-2 group-focus-within:text-primary transition-colors">Operator</p>
+<input class="flex w-full min-w-0 flex-1 resize-none rounded-lg text-slate-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 h-12 px-4 text-base font-normal leading-normal transition-shadow" placeholder="Ex: MSC"/>
+</label>
+</div>
+</div>
+</section>
+<div class="h-px bg-slate-200 dark:bg-slate-800 mx-6 my-2"></div>
+<!-- Section: Logistics -->
+<section class="mt-2">
+<div class="flex items-center justify-between px-6 pb-2 pt-4">
+<h3 class="text-slate-900 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Logistics</h3>
+<span class="material-symbols-outlined text-primary text-xl">anchor</span>
+</div>
+<div class="flex flex-col gap-5 px-6 py-3">
+<!-- Ports -->
+<div class="relative flex flex-col gap-5">
+<!-- Connector Line -->
+<div class="absolute left-[1.35rem] top-10 bottom-10 w-0.5 bg-slate-200 dark:bg-slate-700 -z-10 border-l border-dashed border-slate-300 dark:border-slate-600"></div>
+<!-- POL -->
+<label class="flex flex-col w-full group relative">
+<p class="text-slate-700 dark:text-slate-300 text-sm font-medium leading-normal pb-2 pl-11 group-focus-within:text-primary transition-colors">Port of Loading (POL)</p>
+<div class="relative flex items-center">
+<div class="absolute left-3 flex items-center justify-center size-6 rounded-full bg-slate-100 dark:bg-slate-700 text-slate-500 z-10 border border-slate-200 dark:border-slate-600">
+<span class="material-symbols-outlined text-[14px]">flight_takeoff</span>
+</div>
+<select class="appearance-none flex w-full min-w-0 flex-1 resize-none rounded-lg text-slate-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 h-12 px-4 pl-11 text-base font-normal leading-normal transition-shadow cursor-pointer">
+<option>Shanghai, CN</option>
+<option selected="">Singapore, SG</option>
+<option>Rotterdam, NL</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 text-slate-400 pointer-events-none">expand_more</span>
+</div>
+</label>
+<!-- POD -->
+<label class="flex flex-col w-full group relative">
+<p class="text-slate-700 dark:text-slate-300 text-sm font-medium leading-normal pb-2 pl-11 group-focus-within:text-primary transition-colors">Port of Discharge (POD)</p>
+<div class="relative flex items-center">
+<div class="absolute left-3 flex items-center justify-center size-6 rounded-full bg-slate-100 dark:bg-slate-700 text-slate-500 z-10 border border-slate-200 dark:border-slate-600">
+<span class="material-symbols-outlined text-[14px]">flight_land</span>
+</div>
+<select class="appearance-none flex w-full min-w-0 flex-1 resize-none rounded-lg text-slate-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 h-12 px-4 pl-11 text-base font-normal leading-normal transition-shadow cursor-pointer">
+<option selected="">Los Angeles, US</option>
+<option>New York, US</option>
+<option>Hamburg, DE</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 text-slate-400 pointer-events-none">expand_more</span>
+</div>
+</label>
+</div>
+<!-- Date & Time -->
+<div class="flex gap-4">
+<label class="flex flex-col w-3/5 group">
+<p class="text-slate-700 dark:text-slate-300 text-sm font-medium leading-normal pb-2 group-focus-within:text-primary transition-colors">Inspection Date</p>
+<div class="relative flex items-center">
+<input class="flex w-full min-w-0 flex-1 resize-none rounded-lg text-slate-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 h-12 px-4 text-base font-normal leading-normal transition-shadow" type="date" value="2023-10-24"/>
+</div>
+</label>
+<label class="flex flex-col w-2/5 group">
+<p class="text-slate-700 dark:text-slate-300 text-sm font-medium leading-normal pb-2 group-focus-within:text-primary transition-colors">Time</p>
+<div class="relative flex items-center">
+<input class="flex w-full min-w-0 flex-1 resize-none rounded-lg text-slate-900 dark:text-white focus:outline-0 focus:ring-2 focus:ring-primary/50 border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 h-12 px-4 text-base font-normal leading-normal transition-shadow" type="time" value="14:30"/>
+</div>
+</label>
+</div>
+</div>
+</section>
+<!-- Extra Spacing for scrolling content above fixed footer -->
+<div class="h-8"></div>
+</main>
+<!-- Sticky Footer Action -->
+<footer class="absolute bottom-0 left-0 w-full p-4 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-t border-slate-200 dark:border-slate-800 z-40">
+<button class="w-full h-14 bg-primary hover:bg-primary/90 active:scale-[0.98] transition-all rounded-xl shadow-lg shadow-primary/30 flex items-center justify-center gap-2 group">
+<span class="text-white text-lg font-bold tracking-wide">Save Changes</span>
+<span class="material-symbols-outlined text-white group-hover:translate-x-1 transition-transform">save</span>
+</button>
+</footer>
+</div>
+</body></html>

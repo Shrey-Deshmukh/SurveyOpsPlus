@@ -1,0 +1,71 @@
+# =========================
+# Python
+# =========================
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.env
+.venv/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# LangChain / LangGraph (common artifacts)
+.langgraph/
+langgraph.json
+checkpoints/
+runs/
+graphs/
+
+# =========================
+# Expo / React Native
+# =========================
+node_modules/
+.expo/
+.expo-shared/
+dist/
+web-build/
+android/.gradle/
+android/app/build/
+ios/build/
+ios/Pods/
+
+# React Native / Metro
+.metro-cache/
+*.tsbuildinfo
+
+# =========================
+# IDE / Editor (VS Code)
+# =========================
+.vscode/*
+!.vscode/settings.example.json
+!.vscode/extensions.example.json
+
+# Explicitly ignore these (as requested)
+.vscode/settings.json
+.vscode/extensions.json
+
+# =========================
+# Misc / OS
+# =========================
+.DS_Store
+Thumbs.db

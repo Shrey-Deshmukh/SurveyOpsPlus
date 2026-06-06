@@ -1,0 +1,773 @@
+[
+  {
+    "image_name": "image3.jpg",
+    "tags": [
+      "Frozen meat in blue plastic bag",
+      "Surface temperature SCAN: -9.3°C, MAX: -9.2°C",
+      "Significant frost and ice accumulation on meat (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of frozen meat in a blue plastic bag, with a handheld infrared thermometer taking a surface temperature reading.",
+    "manual_ref": [
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": [
+      "The manual indicates that frosting is a clear sign of temperature abuse, where the product has thawed and refrozen, compromising quality. The observed temperature, while frozen, is above typical deep freeze temperatures for meat, suggesting potential temperature abuse."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA frozen meat frost guidelines",
+      "Search Query: IICL refrigerated container cargo inspection frost"
+    ],
+    "internet_ref_description": "USDA guidelines specify acceptable levels of frost and ice for frozen meat products. IICL standards relate to container conditions that prevent frost formation due to temperature fluctuations."
+  },
+  {
+    "image_name": "image28.jpg",
+    "tags": [
+      "CSC Safety Approval Plate",
+      "Container Type: MQRS-40HS-062A",
+      "Manufacturer: Maersk Container Industry Qingdao Ltd.",
+      "Date Manufactured: 10 /2020",
+      "Operator: Hapag-Lloyd Germany",
+      "Next Examination Date: ACEP-D HH-3"
+    ],
+    "location_desc": "Close-up of the CSC Safety Approval plate on the exterior of the container.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: IICL CSC Safety Approval requirements",
+      "Search Query: Hapag-Lloyd container specifications"
+    ],
+    "internet_ref_description": "IICL standards govern the structural integrity and maintenance of shipping containers, including requirements for CSC plates and inspection dates, which are crucial for safe transport."
+  },
+  {
+    "image_name": "image26.jpg",
+    "tags": [
+      "Cardboard cargo box with 'Hatfield' logo",
+      "Crushed or dented corner on cardboard box (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of a single cardboard box, part of the cargo, showing a damaged corner.",
+    "manual_ref": [
+      "Page 2: 'Proper container monitoring and record keeping during the voyage are important. The records provide vital evidence in case of claim.'"
+    ],
+    "manual_ref_description": [
+      "The manual emphasizes documenting the condition of cargo, as damaged packaging can lead to cargo claims and indicate potential product compromise."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA food packaging damage standards",
+      "Search Query: IICL cargo damage reporting"
+    ],
+    "internet_ref_description": "USDA guidelines often address the integrity of packaging for food products to ensure safety and quality. IICL provides general guidance on reporting cargo damage."
+  },
+  {
+    "image_name": "image31.jpg",
+    "tags": [
+      "Interior view of reefer container with T-bar floor",
+      "Stacked 'Hatfield' branded cargo boxes",
+      "Reddish discoloration on T-bar floor (possible blood or rust) (NEEDS ATTENTION)",
+      "Top right stack of boxes slightly displaced"
+    ],
+    "location_desc": "Interior view of the container, showing the T-bar floor and stacked cargo boxes.",
+    "manual_ref": [
+      "Page 2: 'Airflow: Poor airflow/ventilation through the cargo can lead to temperature hotspots developing. This can be due to poor stowage or packaging of cargo preventing airflow through the cargo or over stowage of cargo preventing return air to the refrigeration unit.'"
+    ],
+    "manual_ref_description": [
+      "The manual highlights that poor stowage can impede airflow, leading to temperature hotspots. Reddish discoloration (blood/rust) on the floor indicates potential cargo leakage and hygiene concerns."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA meat cargo leakage guidelines",
+      "Search Query: IICL container floor rust standards"
+    ],
+    "internet_ref_description": "USDA guidelines prohibit contamination from cargo leakage for food safety. IICL standards address acceptable levels of corrosion on container floors, especially in reefer units."
+  },
+  {
+    "image_name": "image23.jpg",
+    "tags": [
+      "T-bar floor with significant reddish-brown liquid/stain (blood) (NEEDS ATTENTION)",
+      "Pooled liquid between T-bars (NEEDS ATTENTION)",
+      "Small debris visible on floor"
+    ],
+    "location_desc": "Close-up view of the T-bar floor inside the container, showing pooled liquid.",
+    "manual_ref": [
+      "Page 2: 'Fresh/frozen meat - chilled beef'...If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture...This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration. There were clear examples of blood separation from the meat found in some of the cartons..."
+    ],
+    "manual_ref_description": [
+      "The manual explicitly connects blood separation in meat to temperature abuse and quality degradation. The presence of significant blood on the floor is direct evidence of cargo leakage and a severe hygiene breach."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA meat product leakage regulations",
+      "Search Query: IICL container cleaning standards blood"
+    ],
+    "internet_ref_description": "USDA regulations mandate strict hygiene standards for meat transportation, prohibiting leakage and contamination. IICL guidelines include cleaning and sanitation requirements for containers carrying food products."
+  },
+  {
+    "image_name": "image15.jpg",
+    "tags": [
+      "U.S. Department of Agriculture Food Safety and Inspection Service tag",
+      "U.S. REJECTED checked (NEEDS ATTENTION)",
+      "Serial Number: B 30 333802"
+    ],
+    "location_desc": "Close-up of a USDA rejection tag.",
+    "manual_ref": [
+      "Page 2: 'Case studies: Fresh/frozen meat - chilled beef'...In such cases, it is important that the cargo is inspected at discharge since not all cartons of meat would be affected.'"
+    ],
+    "manual_ref_description": [
+      "The manual highlights the importance of cargo inspection at discharge for quality assessment. The USDA rejection tag confirms an official determination of unacceptable cargo quality."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA rejected cargo procedures",
+      "Search Query: USDA meat inspection guidelines"
+    ],
+    "internet_ref_description": "USDA establishes comprehensive inspection and rejection criteria for meat products to ensure public health and quality standards."
+  },
+  {
+    "image_name": "image25.jpg",
+    "tags": [
+      "Interior of container fully loaded with 'Hatfield' branded boxes",
+      "Cargo stacked high, potentially impeding airflow (NEEDS ATTENTION)",
+      "Reddish stains visible on T-bar floor (NEEDS ATTENTION)",
+      "Top right boxes slightly misaligned"
+    ],
+    "location_desc": "Interior of the container looking towards the rear, showing stacked cargo.",
+    "manual_ref": [
+      "Page 2: 'Airflow: Poor airflow/ventilation through the cargo can lead to temperature hotspots developing. This can be due to poor stowage or packaging of cargo preventing airflow through the cargo or over stowage of cargo preventing return air to the refrigeration unit.'"
+    ],
+    "manual_ref_description": [
+      "The manual explicitly warns that poor stowage, including over-stowage, can restrict airflow and lead to temperature hotspots, compromising cargo quality. The reddish stains indicate potential leakage."
+    ],
+    "internet_ref_links": [
+      "Search Query: IICL container cargo stowage guidelines",
+      "Search Query: USDA proper refrigerated cargo stacking"
+    ],
+    "internet_ref_description": "IICL guidelines provide best practices for cargo stowage in containers to prevent damage and ensure proper ventilation. USDA guidelines may also address proper stacking for refrigerated food items."
+  },
+  {
+    "image_name": "image38.jpg",
+    "tags": [
+      "TempTale.Ultra SENSI TECH temperature data logger",
+      "Displayed temperature: 12.0 °F (approx. -11.1°C) (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of a handheld temperature data logger.",
+    "manual_ref": [
+      "Page 2: 'Temperature abuse: This covers a variety of possible issues; for example, power supply problems may cause fluctuations in delivery temperature or an incorrect temperature set point, exposing cargo to the wrong delivery temperature.'"
+    ],
+    "manual_ref_description": [
+      "The manual highlights that temperature abuse, including incorrect set points or fluctuations, can severely impact cargo quality. A reading of 12.0°F (approx. -11.1°C) for frozen goods is above typical deep freeze temperatures (e.g., -18°C/0°F), indicating temperature abuse."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA frozen meat storage temperature",
+      "Search Query: TempTale Ultra specifications"
+    ],
+    "internet_ref_description": "USDA guidelines specify safe storage temperatures for frozen meat. TempTale Ultra is a common data logger used for monitoring temperature during transit."
+  },
+  {
+    "image_name": "image39.jpg",
+    "tags": [
+      "Back of TempTale.Ultra SENSI TECH data logger",
+      "Label: TUA00.01.62B, 22F To 15F, 222 Days, 20 Mins Intvl, 30 Mins Delay (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of the back of a temperature data logger showing its settings.",
+    "manual_ref": [
+      "Page 1: 'Guidelines for the carriage of refrigerated cargoes'...The crew should check that the container set temperature complies with the shippers' specified carriage instructions.'"
+    ],
+    "manual_ref_description": [
+      "The manual stresses the importance of ensuring the container's set temperature complies with shipper instructions. A data logger configured for a range of 22F to 15F (-5.5°C to -9.4°C) is above optimal frozen temperatures (typically 0°F / -18°C), indicating a potential discrepancy with frozen cargo requirements."
+    ],
+    "internet_ref_links": [
+      "Search Query: TempTale Ultra temperature ranges frozen goods",
+      "Search Query: USDA frozen meat temperature requirements"
+    ],
+    "internet_ref_description": "USDA specifies required temperature ranges for the safe transport of frozen meat products. Incorrectly programmed data loggers can fail to accurately monitor compliance with these standards."
+  },
+  {
+    "image_name": "image34.jpg",
+    "tags": [
+      "Cardboard cargo box label",
+      "Product: PORK TONGUE TRIM",
+      "Net Weight: 15.0 kg / 33.07 lb",
+      "Status: KEEP FROZEN",
+      "Product of USA, PKG ON 11/11/25",
+      "Expiration Date: 24 MONTHS FROM THE PACK DATE",
+      "USDA Certificate No. 1268915 APPROVED FOR EXPORT",
+      "U.S. INSPECTED AND PASSED BY DEPARTMENT OF AGRICULTURE stamp"
+    ],
+    "location_desc": "Close-up of a product label on a cardboard box.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: USDA export meat labeling requirements",
+      "Search Query: Philippines frozen pork import regulations"
+    ],
+    "internet_ref_description": "USDA regulations define the labeling requirements for exported meat products, including inspection and freezing status, ensuring compliance with international trade standards."
+  },
+  {
+    "image_name": "image19.jpg",
+    "tags": [
+      "T-bar floor inside container",
+      "Reddish-brown liquid/residue (blood) pooled on floor (NEEDS ATTENTION)",
+      "Surface corrosion/rust on floor (NEEDS ATTENTION)",
+      "Small wooden debris on floor"
+    ],
+    "location_desc": "Close-up of the T-bar floor inside the container.",
+    "manual_ref": [
+      "Page 2: 'Fresh/frozen meat - chilled beef'...If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture...This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration. There were clear examples of blood separation from the meat found in some of the cartons..."
+    ],
+    "manual_ref_description": [
+      "The manual links blood separation in meat to temperature abuse, indicating a quality issue. The presence of such fluid on the floor confirms leakage and poses a significant sanitation risk, also potentially exacerbating corrosion."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA meat cargo leakage contamination",
+      "Search Query: IICL reefer container floor corrosion standards"
+    ],
+    "internet_ref_description": "USDA guidelines strictly prohibit contamination from cargo leakage for food safety. IICL standards set limits for acceptable corrosion on container floors, especially in reefer units where hygiene is paramount."
+  },
+  {
+    "image_name": "image8.jpg",
+    "tags": [
+      "Frozen meat in blue plastic bag",
+      "Surface temperature SCAN: -9.7°C, MAX: -9.5°C",
+      "Frost and ice accumulation on meat (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of frozen meat in a blue plastic bag, with a handheld infrared thermometer taking a surface temperature reading.",
+    "manual_ref": [
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": [
+      "The manual identifies frosting as a sign of temperature abuse (thawing and refreezing). The observed temperature of -9.7°C, while frozen, is above typical deep freeze temperatures, further supporting evidence of temperature abuse."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA guidelines frozen meat frost",
+      "Search Query: IICL refrigerated container cargo inspection frost"
+    ],
+    "internet_ref_description": "USDA guidelines specify acceptable levels of frost and ice for frozen meat products. IICL standards relate to container conditions that prevent frost formation due to temperature fluctuations."
+  },
+  {
+    "image_name": "image24.jpg",
+    "tags": [
+      "Frozen meat in blue plastic bag",
+      "Significant white frost and ice crystals covering meat surface (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of frozen meat showing heavy frost.",
+    "manual_ref": [
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": [
+      "The manual directly links significant frosting to temperature abuse, indicating that the product has thawed and then partially refrozen, severely impacting product quality."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA frozen meat freezer burn",
+      "Search Query: IICL frozen cargo inspection frost"
+    ],
+    "internet_ref_description": "USDA guidelines address issues like freezer burn and excessive frost formation as indicators of poor frozen storage conditions. IICL standards for reefer containers aim to prevent such conditions."
+  },
+  {
+    "image_name": "image36.jpg",
+    "tags": [
+      "Hand holding significant white, crystalline frost/ice collected from frozen meat (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of frost/ice collected from the frozen meat.",
+    "manual_ref": [
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": [
+      "The manual identifies frosting as a direct indicator of temperature abuse, where the product has undergone thawing and refreezing, leading to compromised cargo quality."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA frozen food quality defects frost",
+      "Search Query: IICL reefer container condition monitoring"
+    ],
+    "internet_ref_description": "USDA quality standards for frozen food prohibit excessive frost formation due to its detrimental impact on product texture and quality."
+  },
+  {
+    "image_name": "image37.jpg",
+    "tags": [
+      "Frozen meat in blue plastic bag",
+      "Visible dark reddish liquid/blood on surface (NEEDS ATTENTION)",
+      "Signs of thawing/refreezing or surface moisture (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of frozen meat in a blue plastic bag.",
+    "manual_ref": [
+      "Page 2: 'Fresh/frozen meat - chilled beef'...If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture...This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration. There were clear examples of blood separation from the meat found in some of the cartons...'",
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": [
+      "The manual describes blood separation as a consequence of freezing issues and identifies frosting/refreezing as temperature abuse, both significantly affecting meat quality and potentially leading to microbiological deterioration."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA frozen meat thawing signs",
+      "Search Query: IICL refrigerated cargo spoilage indicators"
+    ],
+    "internet_ref_description": "USDA guidelines detail indicators of thawing and refreezing in frozen meat products, which are crucial for assessing cargo quality and safety. Leakage also indicates a breach of primary packaging."
+  },
+  {
+    "image_name": "image7.jpg",
+    "tags": [
+      "Frozen meat in blue plastic bag",
+      "Surface temperature SCAN: -7.7°C, MAX: -7.7°C",
+      "Frost and ice accumulation on meat (NEEDS ATTENTION)",
+      "Possible liquid/blood visible on meat (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of frozen meat in a blue plastic bag, with a handheld infrared thermometer taking a surface temperature reading.",
+    "manual_ref": [
+      "Page 2: 'Fresh/frozen meat - chilled beef'...If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture due to the slow formation of large ice crystals...There were clear examples of blood separation from the meat found in some of the cartons, indicative of the meat having been slowly partly frozen.'",
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": [
+      "The manual connects blood separation and frosting to temperature abuse and refreezing, leading to degraded product quality. The elevated temperature of -7.7°C for frozen meat strongly confirms temperature abuse and potential spoilage."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA frozen meat temperature abuse signs",
+      "Search Query: IICL reefer cargo temperature deviation"
+    ],
+    "internet_ref_description": "USDA guidelines define acceptable temperature ranges for frozen meat and identify clear signs of temperature abuse, including elevated temperatures and frost."
+  },
+  {
+    "image_name": "image17.jpg",
+    "tags": [
+      "'Hatfield' branded cardboard cargo boxes",
+      "Multiple labels visible: 'FOR EXPORT TO THE PHILIPPINES', 'KEEP FROZEN', 'USDA' approved",
+      "Some cargo labels appear slightly crumpled (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of stacked cargo boxes inside the container, showing labels.",
+    "manual_ref": [
+      "Page 2: 'Proper container monitoring and record keeping during the voyage are important. The records provide vital evidence in case of claim.'"
+    ],
+    "manual_ref_description": [
+      "The manual emphasizes documenting the condition of the cargo. While minor, crumpled labels could indicate rough handling or moisture exposure, relevant for claim assessment."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA meat product label integrity",
+      "Search Query: IICL cargo handling damage"
+    ],
+    "internet_ref_description": "USDA guidelines require clear and intact labeling for food products to maintain traceability and product information. IICL best practices for cargo handling aim to prevent damage to packaging and labels."
+  },
+  {
+    "image_name": "image9.jpg",
+    "tags": [
+      "Reefer unit digital display",
+      "SETPOINT: -17.7°C",
+      "RETURN air temperature: -13.5°C (NEEDS ATTENTION)",
+      "SUPPLY air temperature: -17.8°C",
+      "IN-RANGE indicator illuminated",
+      "Large differential between RETURN and SETPOINT/SUPPLY air temperature (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of the reefer unit's digital display.",
+    "manual_ref": [
+      "Page 1: 'For all these cargoes, it is important to note that the reefer container is designed to maintain the cargo temperature rather than cool it.'",
+      "Page 2: 'Temperature abuse: This covers a variety of possible issues; for example, power supply problems may cause fluctuations in delivery temperature or an incorrect temperature set point, exposing cargo to the wrong delivery temperature.'"
+    ],
+    "manual_ref_description": [
+      "The manual indicates reefers maintain temperature, not cool. A significant difference between return and supply/setpoint air (4.2°C) suggests a high heat load or poor airflow, which can lead to temperature abuse within the cargo, despite the 'IN-RANGE' indicator."
+    ],
+    "internet_ref_links": [
+      "Search Query: Reefer container supply return air temperature differential standards",
+      "Search Query: IICL reefer unit performance indicators"
+    ],
+    "internet_ref_description": "Industry standards for reefer operation define acceptable differentials between supply and return air temperatures. A large delta can indicate inefficient cooling, compromised cargo temperature, or poor airflow within the container."
+  },
+  {
+    "image_name": "image22.jpg",
+    "tags": [
+      "T-bar floor inside container",
+      "Reddish-brown liquid/residue (blood) pooled on floor (NEEDS ATTENTION)",
+      "Surface corrosion/rust on floor (NEEDS ATTENTION)",
+      "Small wooden debris on floor"
+    ],
+    "location_desc": "Close-up view of the T-bar floor inside the container.",
+    "manual_ref": [
+      "Page 2: 'Fresh/frozen meat - chilled beef'...If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture...This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration. There were clear examples of blood separation from the meat found in some of the cartons..."
+    ],
+    "manual_ref_description": [
+      "The manual connects blood separation in meat to temperature abuse and quality degradation. The presence of such fluid on the floor confirms leakage and poses a significant sanitation risk, also potentially exacerbating corrosion."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA meat product leakage contamination",
+      "Search Query: IICL reefer container floor corrosion standards"
+    ],
+    "internet_ref_description": "USDA guidelines strictly prohibit contamination from cargo leakage for food safety. IICL standards set limits for acceptable corrosion on container floors, especially in reefer units where hygiene is paramount."
+  },
+  {
+    "image_name": "image11.jpg",
+    "tags": [
+      "Hapag-Lloyd reefer container exterior",
+      "Container ID: HLBU 950 992 4",
+      "Container Type: 45R1",
+      "Reefer unit ID: HLHG 820200",
+      "Container appears clean and in good external condition"
+    ],
+    "location_desc": "Exterior side view of the reefer container at a loading dock.",
+    "manual_ref": [
+      "Page 1: 'Guidelines for the carriage of refrigerated cargoes - 2. During loading'...The external integrity of the reefer container should also be checked for damage with any defects noted and photographed.'"
+    ],
+    "manual_ref_description": [
+      "The manual requires checking the external integrity of the container for damage during loading. This image shows the overall good external condition of the unit and container."
+    ],
+    "internet_ref_links": [
+      "Search Query: IICL container external integrity standards",
+      "Search Query: Hapag-Lloyd container dimensions"
+    ],
+    "internet_ref_description": "IICL standards provide guidelines for assessing the external structural integrity of shipping containers, ensuring they are fit for transport."
+  },
+  {
+    "image_name": "image18.jpg",
+    "tags": [
+      "Cardboard cargo box label",
+      "Product: PORK TONGUE TRIM",
+      "Net Weight: 15.0 kg / 33.07 lb",
+      "Status: KEEP FROZEN",
+      "Product of USA, PKG ON 11/11/25",
+      "U.S. INSPECTED AND PASSED BY DEPARTMENT OF AGRICULTURE stamp"
+    ],
+    "location_desc": "Close-up of a product label on a cardboard box.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: USDA export meat labeling requirements"
+    ],
+    "internet_ref_description": "USDA regulations define the labeling requirements for exported meat products, including inspection and freezing status, ensuring proper identification and compliance."
+  },
+  {
+    "image_name": "image10.jpg",
+    "tags": [
+      "Hapag-Lloyd reefer container exterior",
+      "Container ID: HLBU 950 992 4",
+      "Container Type: 45R1",
+      "Reefer unit ID: HLHG 820200",
+      "Container appears clean and in good external condition"
+    ],
+    "location_desc": "Overall exterior view of the reefer container.",
+    "manual_ref": [
+      "Page 1: 'Guidelines for the carriage of refrigerated cargoes - 2. During loading'...The external integrity of the reefer container should also be checked for damage with any defects noted and photographed.'"
+    ],
+    "manual_ref_description": [
+      "The manual requires checking the external integrity of the container for damage during loading. This image shows the overall good external condition of the unit and container."
+    ],
+    "internet_ref_links": [
+      "Search Query: IICL container external condition standards",
+      "Search Query: Hapag-Lloyd container types"
+    ],
+    "internet_ref_description": "IICL standards provide guidelines for assessing the external structural integrity of shipping containers, ensuring they are fit for transport."
+  },
+  {
+    "image_name": "image5.jpg",
+    "tags": [
+      "Hapag-Lloyd reefer container exterior",
+      "Container ID: HLBU 950 992 4",
+      "Container Type: 45R1",
+      "Reefer unit ID: HLHG 820200",
+      "Container appears clean and in good external condition"
+    ],
+    "location_desc": "Exterior side view of the reefer container.",
+    "manual_ref": [
+      "Page 1: 'Guidelines for the carriage of refrigerated cargoes - 2. During loading'...The external integrity of the reefer container should also be checked for damage with any defects noted and photographed.'"
+    ],
+    "manual_ref_description": [
+      "The manual requires checking the external integrity of the container for damage during loading. This image shows the overall good external condition of the unit and container."
+    ],
+    "internet_ref_links": [
+      "Search Query: IICL container external inspection criteria",
+      "Search Query: Reefer container identification markings"
+    ],
+    "internet_ref_description": "IICL standards provide guidelines for assessing the external structural integrity of shipping containers, which is a critical pre-loading check."
+  },
+  {
+    "image_name": "image2.jpg",
+    "tags": [
+      "Yellow plastic security seal: AMERICOLD 0004004",
+      "Metal bolt seal: 0004004",
+      "Seals appear intact and properly secured"
+    ],
+    "location_desc": "Close-up of security seals on the container door locking bar.",
+    "manual_ref": [
+      "Page 1: 'Guidelines for the carriage of refrigerated cargoes - 1. Pre-loading'...It is often the case that containers are loaded and sealed without the crew being able to verify the type or condition of the contents.'"
+    ],
+    "manual_ref_description": [
+      "While the manual mentions containers being sealed, an intact seal is a positive indication that the container has not been tampered with and unauthorized access has not occurred."
+    ],
+    "internet_ref_links": [
+      "Search Query: ISO 17712 container seal standards",
+      "Search Query: IICL container door seal inspection"
+    ],
+    "internet_ref_description": "ISO 17712 specifies standards for high-security freight container mechanical seals, which are critical for preventing tampering and ensuring cargo security."
+  },
+  {
+    "image_name": "image4.jpg",
+    "tags": [
+      "Yellow plastic security seal: UL-5348587",
+      "Seal appears intact and properly secured"
+    ],
+    "location_desc": "Close-up of a security seal on the container door locking bar.",
+    "manual_ref": [
+      "Page 1: 'Guidelines for the carriage of refrigerated cargoes - 1. Pre-loading'...It is often the case that containers are loaded and sealed without the crew being able to verify the type or condition of the contents.'"
+    ],
+    "manual_ref_description": [
+      "While the manual mentions containers being sealed, an intact seal is a positive indication that the container has not been tampered with and unauthorized access has not occurred."
+    ],
+    "internet_ref_links": [
+      "Search Query: ISO 17712 high security seals",
+      "Search Query: IICL container security inspection"
+    ],
+    "internet_ref_description": "ISO 17712 specifies standards for high-security freight container mechanical seals, which are critical for preventing tampering and ensuring cargo security."
+  },
+  {
+    "image_name": "image6.jpg",
+    "tags": [
+      "Exterior front of reefer container with refrigeration unit",
+      "Reefer unit ID: HLHG 820200 1",
+      "Container ID: HLBU 950 992 4",
+      "General dirt/grime on reefer unit, no obvious major damage"
+    ],
+    "location_desc": "Exterior front view of a reefer container, focusing on the refrigeration unit.",
+    "manual_ref": [
+      "Page 1: 'Guidelines for the carriage of refrigerated cargoes - 2. During loading'...The external integrity of the reefer container should also be checked for damage with any defects noted and photographed.'"
+    ],
+    "manual_ref_description": [
+      "The manual requires checking the external integrity of the container for damage. While some dirt is present, it does not appear to impede the unit's function or represent structural damage."
+    ],
+    "internet_ref_links": [
+      "Search Query: IICL reefer unit external inspection",
+      "Search Query: Reefer container unit cleanliness standards"
+    ],
+    "internet_ref_description": "IICL standards provide guidelines for inspecting the physical condition of reefer units, including cleanliness, to ensure operational efficiency."
+  },
+  {
+    "image_name": "image1.jpg",
+    "tags": [
+      "Frozen meat in blue plastic bag",
+      "Surface temperature SCAN: -9.2°C, MAX: -9.2°C",
+      "Frost and ice accumulation on meat (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of frozen meat in a blue plastic bag, with a handheld infrared thermometer taking a surface temperature reading.",
+    "manual_ref": [
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": [
+      "The manual indicates that frosting is a clear sign of temperature abuse, where the product has thawed and refrozen, compromising quality. The observed temperature, while frozen, is above typical deep freeze temperatures for meat, suggesting potential temperature abuse."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA frozen meat frost guidelines",
+      "Search Query: IICL refrigerated container cargo inspection frost"
+    ],
+    "internet_ref_description": "USDA guidelines specify acceptable levels of frost and ice for frozen meat products. IICL standards relate to container conditions that prevent frost formation due to temperature fluctuations."
+  },
+  {
+    "image_name": "image14.jpg",
+    "tags": [
+      "Cardboard boxes of 'Hatfield' branded cargo on wooden pallet",
+      "Boxes appear in good condition",
+      "Wooden pallet intact"
+    ],
+    "location_desc": "Ground level view of stacked cargo boxes on a wooden pallet.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: IICL cargo packaging standards",
+      "Search Query: USDA food product packaging integrity"
+    ],
+    "internet_ref_description": "IICL provides general guidance on packaging integrity for cargo. Intact packaging is crucial for protecting food products during transit."
+  },
+  {
+    "image_name": "image12.jpg",
+    "tags": [
+      "Rear exterior view of container",
+      "Closed doors and locking bars intact",
+      "Container ID: HLBU 950 992 4",
+      "Container Type: 45R1",
+      "Maximum Gross Mass: 34,000 kg / 74,960 lbs",
+      "Tare Weight: 4,450 kg / 9,810 lbs",
+      "Max Payload: 29,550 kg / 65,150 lbs",
+      "Cube: 67.5 m³ / 2,384 cuft",
+      "Chassis ID: MOCZ 341236",
+      "License Plate: U956943"
+    ],
+    "location_desc": "Rear exterior view of the container, showing the doors.",
+    "manual_ref": [
+      "Page 1: 'Guidelines for the carriage of refrigerated cargoes - 2. During loading'...The external integrity of the reefer container should also be checked for damage with any defects noted and photographed.'"
+    ],
+    "manual_ref_description": [
+      "The manual requires checking the external integrity of the container for damage during loading. The rear doors and markings appear in good condition."
+    ],
+    "internet_ref_links": [
+      "Search Query: IICL container door inspection standards",
+      "Search Query: Container marking standards ISO"
+    ],
+    "internet_ref_description": "IICL standards cover the inspection of container doors and locking mechanisms. ISO standards dictate required container markings for identification and operational limits."
+  },
+  {
+    "image_name": "image33.jpg",
+    "tags": [
+      "Interior view of container with 'Hatfield' branded cargo boxes",
+      "Cargo stacked very high, possibly impeding return air circulation (NEEDS ATTENTION)",
+      "Reddish stains visible on T-bar floor (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Interior view of the container, showing the cargo stow.",
+    "manual_ref": [
+      "Page 2: 'Airflow: Poor airflow/ventilation through the cargo can lead to temperature hotspots developing. This can be due to poor stowage or packaging of cargo preventing airflow through the cargo or over stowage of cargo preventing return air to the refrigeration unit.'"
+    ],
+    "manual_ref_description": [
+      "The manual explicitly warns against poor stowage, including over-stowage, as it can restrict airflow and lead to temperature hotspots, compromising cargo quality. The reddish stains indicate potential leakage."
+    ],
+    "internet_ref_links": [
+      "Search Query: IICL container cargo stowage limits",
+      "Search Query: USDA refrigerated cargo airflow requirements"
+    ],
+    "internet_ref_description": "IICL guidelines provide recommendations for proper cargo stowage in containers to ensure adequate airflow. USDA also emphasizes airflow for consistent temperature control in refrigerated food transport."
+  },
+  {
+    "image_name": "image32.jpg",
+    "tags": [
+      "Cardboard cargo box label",
+      "Product: PORK TONGUE TRIM",
+      "Net Weight: 15.0 kg / 33.07 lb",
+      "Status: KEEP FROZEN",
+      "Product of USA, PKG ON 11/11/25",
+      "U.S. INSPECTED AND PASSED BY DEPARTMENT OF AGRICULTURE stamp"
+    ],
+    "location_desc": "Close-up of a product label on a cardboard box.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: USDA frozen meat labeling regulations"
+    ],
+    "internet_ref_description": "USDA regulations define the labeling requirements for exported meat products, including inspection and freezing status, ensuring proper identification and compliance."
+  },
+  {
+    "image_name": "image27.jpg",
+    "tags": [
+      "Frozen meat in blue plastic bag",
+      "Frost/ice accumulation (NEEDS ATTENTION)",
+      "Partially defrosted appearance with reddish liquid/blood visible (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of frozen meat in a blue plastic bag.",
+    "manual_ref": [
+      "Page 2: 'Fresh/frozen meat - chilled beef'...If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture...This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration.'",
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": [
+      "The manual identifies blood separation and frosting as indicators of temperature abuse (thawing and refreezing), which degrade product quality and increase susceptibility to microbiological spoilage."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA frozen meat thawing signs",
+      "Search Query: IICL refrigerated cargo spoilage indicators"
+    ],
+    "internet_ref_description": "USDA guidelines detail indicators of thawing and refreezing in frozen meat products, which are crucial for assessing cargo quality and safety. Visible liquid from the meat also indicates a breach of primary packaging."
+  },
+  {
+    "image_name": "image29.jpg",
+    "tags": [
+      "Frozen meat in blue plastic bag",
+      "Irregular ice crystal formation (NEEDS ATTENTION)",
+      "Congealed blood/liquid on meat surface (NEEDS ATTENTION)",
+      "Evidence of thawing and refreezing (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of frozen meat in a blue plastic bag.",
+    "manual_ref": [
+      "Page 2: 'Fresh/frozen meat - chilled beef'...If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture due to the slow formation of large ice crystals. This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration.'",
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": [
+      "The manual explicitly describes slow ice crystal formation and blood separation as consequences of temperature abuse in frozen meat. Frosting is also identified as a sign of thawing and refreezing, all leading to significant quality degradation."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA frozen meat quality defects refreezing",
+      "Search Query: IICL refrigerated cargo temperature fluctuations"
+    ],
+    "internet_ref_description": "USDA guidelines address the impact of thawing and refreezing on the quality and safety of frozen meat products, often leading to product rejection."
+  },
+  {
+    "image_name": "image13.jpg",
+    "tags": [
+      "TempTale.Ultra SENSI TECH temperature data logger",
+      "Taped to cardboard cargo box, wrapped in plastic film",
+      "Screen is blank or unreadable (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of a temperature data logger attached to a cargo box.",
+    "manual_ref": [
+      "Page 2: 'Proper container monitoring and record keeping during the voyage are important. The records provide vital evidence in case of claim.'"
+    ],
+    "manual_ref_description": [
+      "The manual emphasizes the importance of records. An unreadable data logger screen prevents immediate verification of temperature history, requiring data download for assessment, which delays on-the-spot decision making."
+    ],
+    "internet_ref_links": [
+      "Search Query: TempTale Ultra data retrieval issues",
+      "Search Query: USDA temperature monitoring requirements"
+    ],
+    "internet_ref_description": "Data loggers like TempTale Ultra are standard for temperature monitoring, and their data is crucial for compliance with USDA and other food safety regulations. A non-functional display could indicate an issue with the device or its data."
+  },
+  {
+    "image_name": "image21.jpg",
+    "tags": [
+      "Cardboard cargo box label",
+      "Product: PORK TONGUE TRIM",
+      "Net Weight: 15.0 kg / 33.07 lb",
+      "Status: KEEP FROZEN",
+      "Product of USA, PKG ON 11/11/25",
+      "U.S. INSPECTED AND PASSED BY DEPARTMENT OF AGRICULTURE stamp"
+    ],
+    "location_desc": "Close-up of a product label on a cardboard box.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: USDA frozen meat labeling regulations"
+    ],
+    "internet_ref_description": "USDA regulations define the labeling requirements for exported meat products, including inspection and freezing status, ensuring proper identification and compliance."
+  },
+  {
+    "image_name": "image30.jpg",
+    "tags": [
+      "Frozen meat in blue plastic bag",
+      "Surface temperature SCAN: -10.0°C, MAX: -10.0°C",
+      "Frost and ice accumulation on meat (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of frozen meat in a blue plastic bag, with a handheld infrared thermometer taking a surface temperature reading.",
+    "manual_ref": [
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": [
+      "The manual indicates that frosting is a clear sign of temperature abuse, where the product has thawed and refrozen, compromising quality. The observed temperature, while frozen, is above typical deep freeze temperatures for meat, suggesting potential temperature abuse."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA frozen meat frost guidelines",
+      "Search Query: IICL refrigerated container cargo inspection frost"
+    ],
+    "internet_ref_description": "USDA guidelines specify acceptable levels of frost and ice for frozen meat products. IICL standards relate to container conditions that prevent frost formation due to temperature fluctuations."
+  },
+  {
+    "image_name": "image16.jpg",
+    "tags": [
+      "U.S. Department of Agriculture Food Safety and Inspection Service tag",
+      "U.S. REJECTED checked (NEEDS ATTENTION)",
+      "Item tagged: TRAILER - PIG TONGUE",
+      "Reason for tagging: Thawed / Re froze / Bad smell (NEEDS ATTENTION)",
+      "Tag applied by: D.Con, Date: 12/20/24",
+      "Serial Number: B 30 333802"
+    ],
+    "location_desc": "Close-up of a USDA rejection tag with handwritten details.",
+    "manual_ref": [
+      "Page 2: 'Fresh/frozen meat - chilled beef'...If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture due to the slow formation of large ice crystals...This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration. There were clear examples of blood separation from the meat found in some of the cartons, indicative of the meat having been slowly partly frozen.'",
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": [
+      "The manual describes the consequences of temperature abuse, including thawing and refreezing, leading to textural changes and deterioration. The 'bad smell' indicates microbiological spoilage, directly linked to temperature abuse and a critical factor for cargo rejection."
+    ],
+    "internet_ref_links": [
+      "Search Query: USDA rejected meat reasons thawing refreezing smell",
+      "Search Query: USDA meat spoilage indicators"
+    ],
+    "internet_ref_description": "USDA provides detailed criteria for the rejection of meat products, including evidence of thawing, refreezing, and organoleptic signs of spoilage such as bad smell, all indicative of severe temperature abuse."
+  },
+  {
+    "image_name": "image20.jpg",
+    "tags": [
+      "'Hatfield' branded cardboard cargo boxes",
+      "Multiple labels visible: 'FOR EXPORT TO THE PHILIPPINES', 'KEEP FROZEN', 'USDA' approved",
+      "Boxes appear generally intact"
+    ],
+    "location_desc": "Close-up of stacked cargo boxes inside the container, showing labels.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: USDA meat product label requirements",
+      "Search Query: IICL cargo packaging integrity"
+    ],
+    "internet_ref_description": "USDA guidelines require clear and intact labeling for food products to maintain traceability and product information. IICL best practices for cargo handling aim to prevent damage to packaging and labels."
+  }
+]

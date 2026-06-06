@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>User Registration - Field Ready</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#fbbf24", // Industrial Amber for high visibility
+                        "background-dark": "#0a0a0a",
+                        "surface-dark": "#1a1a1a",
+                        "border-rugged": "#404040"
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        body {
+            min-height: 100dvh;
+        }
+        .rugged-input {
+            @apply bg-surface-dark border-2 border-border-rugged text-white text-lg h-16 px-4 focus:border-primary focus:ring-0 transition-colors w-full uppercase tracking-wider font-bold;
+        }
+        .rugged-label {
+            @apply text-primary text-xs font-black uppercase tracking-widest mb-1 block;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="dark bg-background-dark font-display text-white antialiased">
+<div class="relative flex h-full min-h-screen w-full mx-auto max-w-md flex-col bg-background-dark overflow-hidden shadow-2xl">
+<div class="flex items-center bg-background-dark border-b border-border-rugged px-4 h-16 sticky top-0 z-10">
+<button class="text-white flex size-12 items-center justify-center active:bg-surface-dark transition-colors">
+<span class="material-symbols-outlined text-[28px] font-bold">arrow_back</span>
+</button>
+<h2 class="text-white text-xl font-black uppercase tracking-widest flex-1 text-center pr-12">Create Account</h2>
+</div>
+<div class="flex-1 overflow-y-auto px-6 py-8">
+<header class="mb-10">
+<h1 class="text-4xl font-black tracking-tighter uppercase leading-none mb-2 italic">User Registration</h1>
+<div class="h-1 w-12 bg-primary"></div>
+<p class="text-zinc-500 text-sm mt-4 font-bold uppercase tracking-tight">Deploying field inspection tools. Enter credentials below.</p>
+</header>
+<form class="flex flex-col gap-8" onsubmit="event.preventDefault();">
+<div>
+<label class="rugged-label" for="full_name">Full Name</label>
+<div class="relative">
+<input class="rugged-input" id="full_name" placeholder="OPERATOR NAME" type="text"/>
+</div>
+</div>
+<div>
+<label class="rugged-label" for="email">Email Address</label>
+<div class="relative">
+<input class="rugged-input" id="email" placeholder="EMAIL@DOMAIN.COM" type="email"/>
+</div>
+</div>
+<label class="flex items-center gap-4 cursor-pointer group">
+<div class="relative flex items-center justify-center">
+<input class="peer appearance-none size-6 border-2 border-border-rugged bg-surface-dark checked:bg-primary checked:border-primary transition-all" type="checkbox"/>
+<span class="material-symbols-outlined absolute text-background-dark text-lg font-black opacity-0 peer-checked:opacity-100 pointer-events-none">check</span>
+</div>
+<span class="text-[10px] text-zinc-400 font-bold uppercase leading-tight tracking-wide">
+                        Confirm agreement to field operations <a class="text-primary underline decoration-2 underline-offset-2" href="#">Terms</a> &amp; <a class="text-primary underline decoration-2 underline-offset-2" href="#">Privacy</a>.
+                    </span>
+</label>
+<div class="pt-4">
+<button class="w-full bg-primary active:bg-amber-500 text-black font-black h-16 flex items-center justify-center gap-3 transition-all uppercase tracking-widest text-lg border-b-4 border-amber-700">
+<span>Register</span>
+<span class="material-symbols-outlined font-black">arrow_forward</span>
+</button>
+</div>
+</form>
+</div>
+<div class="px-6 py-4 border-t border-border-rugged bg-surface-dark/50">
+<div class="flex justify-between items-center opacity-40">
+<span class="text-[10px] font-black uppercase tracking-tighter">System: Rugged-v1.0</span>
+<span class="text-[10px] font-black uppercase tracking-tighter">Status: Ready</span>
+</div>
+</div>
+<div class="h-8 w-full shrink-0 bg-background-dark"></div>
+</div>
+
+</body></html>

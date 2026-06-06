@@ -1,0 +1,97 @@
+[
+    {
+        "tags": [
+            "Cargo Type: Black Seedless Grapes",
+            "Fungal Growth/Mold (NEEDS ATTENTION)",
+            "Botrytis Cinerea Suspected (NEEDS ATTENTION)",
+            "Wetness and Juice Leakage (NEEDS ATTENTION)"
+        ],
+        "location_desc": "The lower half of the composite image features numerous close-up shots of individual grape bunches inside plastic bags and styrofoam boxes. There is extens
+ive white, fuzzy fungal growth covering large sections of the fruit, along with crushed berries and sticky residue.","manual_ref": [
+      "Page 4: 'A large proportion of the fruit was found to be soft and affected by fungal diseases. Both ripening and growth of fungal organisms would have been slowed by carr
+iage at the requested transit temperature.'"
+        ],
+        "manual_ref_description": [
+      "The manual explicitly links the development of fungal diseases and fruit softening to temperature abuse and failure to maintain the cold chain, which is clearly evident i
+n the advanced decay of the grapes in the photos."
+        ],
+        "internet_ref_links": [
+            "https://www.maersk.com/shipping-services/reefer-shipping/cargo-care-specialists/grapes",
+            "https://www.tis-gdv.de/tis_e/ware/obst/weintraub/weintraub-htm/"
+        ],
+        "internet_ref_description": [
+      "Industry standards for table grapes (like the Black Seedless variety shown) state that 'Botrytis cinerea' (Grey Mold) is the most significant post-harvest threat, which f
+lourishes if temperatures rise above the recommended -1°C to 0°C range or if there is excessive moisture."
+        ]
+    },
+    {
+        "tags": [
+            "Inadequate Cooling Temperature (NEEDS ATTENTION)",
+            "Ambient Temperature Monitoring",
+            "Analog Thermometer Reading"
+        ],
+        "location_desc": "In the upper-middle section of the image, an analog thermometer is shown placed against the white styrofoam packaging. The needle appears to be pointing be
+tween 2°C and 4°C.","manual_ref": [
+            "Page 1: 'Ideally, all cargoes should be loaded at the intended carriage temperature to ensure product quality is maintained.'",
+            "Page 2: 'Temperature abuse... covers a variety of possible issues; for example... exposing cargo to the wrong delivery temperature.'"
+        ],
+        "manual_ref_description": [
+      "The manual emphasizes that reefers are designed to maintain, not lower, temperature. The photographed reading of ~3°C is above the ideal freezing point/storage temperatur
+e for grapes, indicating a potential break in the cold chain."
+        ],
+        "internet_ref_links": [
+            "https://www.hapag-lloyd.com/en/services-information/cargo-fleet/reefer/reefer-cargoes.html"
+        ],
+        "internet_ref_description": [
+      "Table grapes are highly perishable and require a set point typically between -1.5°C and 0.5°C. A reading of 3°C or higher significantly accelerates the respiration rate a
+nd decay."
+        ]
+    },
+    {
+        "tags": [
+            "High Stowage Density (NEEDS ATTENTION)",
+            "Airflow Obstruction Risk",
+            "Stowage Height"
+        ],
+        "location_desc": "The top-most images show the interior of the container or cold store where cartons are stacked almost to the ceiling with very little overhead clearance or
+ vertical 'chimneys' for air circulation.","manual_ref": [
+            "Page 1: 'For chilled live cargoes such as fruit and vegetables the products should be stowed to allow air flow to circulate throughout the cargo stow.'",
+      "Page 2: 'Airflow: Poor airflow/ventilation through the cargo can lead to temperature hotspots developing. This can be due to poor stowage... preventing airflow through th
+e cargo.'"
+        ],
+        "manual_ref_description": [
+      "The manual identifies poor stowage as a primary cause of 'hotspots.' If the grapes are stacked too high or too tightly, the refrigerated air cannot reach the center of th
+e stow, leading to the localized rot seen in the later images."
+        ],
+        "internet_ref_links": [
+            "https://www.pandi.com.hk/reefer-cargo-claims-prevention-stowage-and-packing/"
+        ],
+        "internet_ref_description": [
+      "Proper stowage in a reefer requires that the cargo does not exceed the red 'load line' to allow air to flow over the top and down through the T-bar floor. Overstuffed con
+tainers block this cycle."
+        ]
+    },
+    {
+        "tags": [
+            "Condensation and Humidity (NEEDS ATTENTION)",
+            "Plastic Liner/Packaging Moisture",
+            "Respiration Heat"
+        ],
+        "location_desc": "In several middle-section photos, moisture droplets and 'fogging' are visible on the inside of the plastic bags containing the grape bunches.",
+        "manual_ref": [
+            "Page 1: 'the cooling will remove product heat, as well as moisture and gases... The exact ventilation requirements will depend on the type of product carried.'",
+            "Page 3: 'Frosting appears when a product is thawed and then partially refrozen.'"
+        ],
+        "manual_ref_description": [
+      "The manual highlights that ventilation must remove moisture. The presence of heavy condensation inside the bags suggests either a failure of the ventilation system or 'ho
+t loading' where the fruit's own respiration created moisture that could not escape."
+        ],
+        "internet_ref_links": [
+            "https://www.postharvest.net.au/fruit/table-grapes/"
+        ],
+        "internet_ref_description": [
+      "High relative humidity (90-95%) is necessary for grapes to prevent stem drying, but 'free water' or condensation on the fruit surfaces is the primary trigger for mold gro
+wth during transit."
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+CREATE TABLE IF NOT EXISTS agent_state (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id VARCHAR(255) NOT NULL,
+    project_id VARCHAR(255) NOT NULL UNIQUE,
+    status VARCHAR(50) NOT NULL DEFAULT 'pending',
+    tags_json TEXT,
+    generated_report TEXT,
+    evaluation_result TEXT,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+CREATE TABLE IF NOT EXISTS service_health (
+    service_name VARCHAR(100) PRIMARY KEY,
+    status VARCHAR(50) NOT NULL,
+    last_checked_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    client_ip INET,
+    metadata JSONB
+);
+
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+
+CREATE TABLE IF NOT EXISTS users (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    email VARCHAR(255) UNIQUE NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS dropbox_tokens (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+    account_id VARCHAR(255) NOT NULL,
+    access_token BYTEA NOT NULL,
+    refresh_token BYTEA NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    UNIQUE (user_id)
+);

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>User Registration</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#13a4ec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101c22",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "3xl": "1.5rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        body {
+            min-height: 100dvh;
+        }
+        .chat-bubble-left {
+            @apply rounded-2xl rounded-tl-none bg-white dark:bg-slate-800 shadow-sm border border-slate-200/50 dark:border-slate-700/50;
+        }
+        .chat-bubble-right {
+            @apply rounded-2xl rounded-br-none bg-primary text-white shadow-md;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased selection:bg-primary/30">
+<div class="relative flex h-full min-h-screen w-full mx-auto max-w-md flex-col bg-background-light dark:bg-background-dark overflow-hidden">
+<div class="absolute inset-0 opacity-5 pointer-events-none">
+<div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(#13a4ec_1px,transparent_1px)] [background-size:24px_24px]"></div>
+</div>
+<div class="flex-1 flex flex-col px-4 pt-12 pb-24 overflow-y-auto space-y-8 relative z-10">
+<div class="flex flex-col gap-2 max-w-[85%]">
+<div class="chat-bubble-left p-4">
+<h1 class="text-xl font-bold text-slate-900 dark:text-white mb-1">Welcome!</h1>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">Let's get you set up to start your first inspection. What's your name?</p>
+</div>
+<span class="text-[10px] text-slate-400 font-medium ml-1">JUST NOW</span>
+</div>
+<form class="flex flex-col gap-8">
+<div class="flex flex-col items-end gap-2 ml-auto w-full max-w-[85%]">
+<div class="chat-bubble-right w-full overflow-hidden">
+<input class="w-full bg-transparent border-none text-white placeholder:text-white/60 focus:ring-0 h-14 px-5 text-base" placeholder="Type your full name..." required="" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-2 max-w-[85%]">
+<div class="chat-bubble-left p-4">
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">Nice to meet you! And which email should we use for your account?</p>
+</div>
+</div>
+<div class="flex flex-col items-end gap-2 ml-auto w-full max-w-[85%]">
+<div class="chat-bubble-right w-full overflow-hidden">
+<input class="w-full bg-transparent border-none text-white placeholder:text-white/60 focus:ring-0 h-14 px-5 text-base" placeholder="your@email.com" required="" type="email"/>
+</div>
+</div>
+<div class="flex flex-col gap-2 max-w-[85%]">
+<div class="chat-bubble-left p-4">
+<p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+                            By sending this, you agree to our 
+                            <a class="text-primary font-medium hover:underline" href="#">Terms</a> and 
+                            <a class="text-primary font-medium hover:underline" href="#">Privacy Policy</a>.
+                        </p>
+</div>
+</div>
+<div class="fixed bottom-0 left-0 right-0 p-4 max-w-md mx-auto bg-gradient-to-t from-background-light dark:from-background-dark via-background-light/95 dark:via-background-dark/95 to-transparent">
+<button class="w-full bg-primary hover:bg-sky-500 text-white font-bold h-14 rounded-2xl shadow-xl shadow-blue-500/25 transition-all active:scale-[0.98] flex items-center justify-center gap-3" type="submit">
+<span class="text-lg">Send &amp; Register</span>
+<span class="material-symbols-outlined text-[24px]">send</span>
+</button>
+</div>
+</form>
+</div>
+<div class="h-8 w-full shrink-0"></div>
+</div>
+
+</body></html>

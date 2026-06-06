@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Create New Project</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#13a4ec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101c22",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        /* Custom scrollbar hide for cleaner mobile look */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white antialiased">
+<!-- Main Container -->
+<div class="relative flex h-full min-h-screen w-full flex-col overflow-x-hidden max-w-md mx-auto shadow-2xl bg-white dark:bg-[#15232b]">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 z-10 flex items-center justify-between bg-white/90 dark:bg-[#15232b]/90 backdrop-blur-md px-4 py-3 border-b border-slate-100 dark:border-slate-800">
+<button class="flex items-center justify-center p-2 -ml-2 text-slate-500 dark:text-slate-400 hover:text-primary transition-colors rounded-full hover:bg-slate-100 dark:hover:bg-slate-800">
+<span class="material-symbols-outlined text-[28px]">close</span>
+</button>
+<h1 class="text-lg font-bold leading-tight tracking-tight text-center flex-1 pr-8">Create Project</h1>
+</header>
+<!-- Scrollable Content -->
+<main class="flex-1 flex flex-col gap-6 px-5 py-6 overflow-y-auto no-scrollbar pb-32">
+<!-- Section 1: General Information -->
+<section class="flex flex-col gap-4">
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-primary text-xl">dataset</span>
+<h3 class="text-base font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 text-xs">General Information</h3>
+</div>
+<div class="space-y-5">
+<label class="block group">
+<span class="text-sm font-semibold text-slate-700 dark:text-slate-200 mb-2 block">Project Name <span class="text-red-500">*</span></span>
+<input class="form-input w-full rounded-lg border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50 text-slate-900 dark:text-white placeholder:text-slate-400 focus:border-primary focus:ring-primary h-12 px-4 transition-all shadow-sm" placeholder="e.g., Maersk Inspection #402" type="text"/>
+</label>
+<label class="block group">
+<span class="text-sm font-semibold text-slate-700 dark:text-slate-200 mb-2 block">Survey Details</span>
+<textarea class="form-textarea w-full rounded-lg border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50 text-slate-900 dark:text-white placeholder:text-slate-400 focus:border-primary focus:ring-primary min-h-[120px] px-4 py-3 resize-none transition-all shadow-sm" placeholder="Describe the scope of the inspection, container numbers, or specific damage areas..."></textarea>
+</label>
+</div>
+</section>
+<!-- Divider -->
+<div class="h-px w-full bg-slate-100 dark:bg-slate-800 my-2"></div>
+<!-- Section 2: Documentation -->
+<section class="flex flex-col gap-4">
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-primary text-xl">folder_open</span>
+<h3 class="text-base font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 text-xs">Documentation</h3>
+</div>
+<p class="text-sm text-slate-500 dark:text-slate-400 -mt-2 mb-2">Attach relevant manifests, instructions, or correspondence.</p>
+<div class="grid grid-cols-1 gap-4">
+<!-- PDF Upload Card -->
+<button class="group flex items-center p-4 rounded-xl border border-dashed border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-800/30 hover:bg-blue-50 dark:hover:bg-slate-800 hover:border-primary/50 transition-all text-left w-full relative overflow-hidden">
+<div class="h-12 w-12 rounded-lg bg-white dark:bg-slate-700 shadow-sm flex items-center justify-center text-primary group-hover:scale-110 transition-transform duration-300 mr-4 shrink-0 border border-slate-100 dark:border-slate-600">
+<span class="material-symbols-outlined text-3xl">picture_as_pdf</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="font-semibold text-slate-900 dark:text-white truncate">Reference Documents</h4>
+<p class="text-xs text-slate-500 dark:text-slate-400 truncate">Upload PDF (Max 10MB)</p>
+</div>
+<div class="h-8 w-8 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-slate-500 dark:text-slate-300 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-xl">add</span>
+</div>
+</button>
+<!-- Email Upload Card -->
+<button class="group flex items-center p-4 rounded-xl border border-dashed border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-800/30 hover:bg-blue-50 dark:hover:bg-slate-800 hover:border-primary/50 transition-all text-left w-full relative overflow-hidden">
+<div class="h-12 w-12 rounded-lg bg-white dark:bg-slate-700 shadow-sm flex items-center justify-center text-primary group-hover:scale-110 transition-transform duration-300 mr-4 shrink-0 border border-slate-100 dark:border-slate-600">
+<span class="material-symbols-outlined text-3xl">mail</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="font-semibold text-slate-900 dark:text-white truncate">Correspondence</h4>
+<p class="text-xs text-slate-500 dark:text-slate-400 truncate">Import Email (.eml, .msg)</p>
+</div>
+<div class="h-8 w-8 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center text-slate-500 dark:text-slate-300 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-xl">add</span>
+</div>
+</button>
+<!-- Example of an uploaded file state -->
+<div class="flex items-center p-3 rounded-xl border border-solid border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-sm">
+<div class="h-10 w-10 rounded-lg bg-red-50 dark:bg-red-900/20 flex items-center justify-center text-red-500 mr-3 shrink-0">
+<span class="material-symbols-outlined">description</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="text-sm font-medium text-slate-900 dark:text-white truncate">Manifest_HK_402.pdf</h4>
+<p class="text-xs text-slate-400 truncate">2.4 MB • Uploaded just now</p>
+</div>
+<button class="p-2 text-slate-400 hover:text-red-500 transition-colors">
+<span class="material-symbols-outlined text-xl">delete</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Action -->
+<footer class="absolute bottom-0 w-full bg-white dark:bg-[#15232b] border-t border-slate-100 dark:border-slate-800 p-5 pb-8 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)]">
+<button class="w-full flex items-center justify-center gap-2 bg-primary hover:bg-blue-500 active:bg-blue-600 text-white font-semibold text-base py-3.5 px-6 rounded-lg shadow-lg shadow-blue-500/30 transition-all transform active:scale-[0.98]">
+<span>Create Project</span>
+<span class="material-symbols-outlined text-xl">arrow_forward</span>
+</button>
+</footer>
+</div>
+</body></html>

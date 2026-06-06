@@ -1,0 +1,43 @@
+services:
+  surveyopsplus-server:
+    image: ${SERVER_CONTAINER_IMAGE:-surveyopsplus-server:0.1.0}
+    container_name: ${SERVER_CONTAINER_NAME:-surveyopsplus-server}
+    ports:
+      - "${SERVER_HOST_PORT:-8000}:8000"
+    environment:
+      - PYTHONPATH=/opt/app
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+      - DB_HOST=surveyopsplus-postgres
+      - DB_PORT=5432
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DROPBOX_APP_KEY=${DROPBOX_APP_KEY}
+      - DROPBOX_APP_SECRET=${DROPBOX_APP_SECRET}
+      - DROPBOX_REDIRECT_URI=${DROPBOX_REDIRECT_URI}
+      - DB_ENCRYPTION_KEY=${DB_ENCRYPTION_KEY}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - GOOGLE_MODEL=${GOOGLE_MODEL}
+    depends_on:
+      surveyopsplus-postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+  surveyopsplus-postgres:
+    image: postgres:16.3-alpine3.20
+    container_name: ${POSTGRES_CONTAINER_NAME:-surveyopsplus-postgres}
+    ports:
+      - "${POSTGRES_HOST_PORT:-5432}:5432"
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER} -d ${DB_NAME}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped

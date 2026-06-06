@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Attach to Expo (Hermes)",
+      "type": "pwa-node",
+      "request": "attach",
+      "port": 8081,
+      "resolveSourceMapLocations": [
+        "${workspaceFolder}/**",
+        "!**/node_modules/**"
+      ],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Debug Current Detox Test (Android)",
+      "type": "pwa-node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["detox", "test", "-c", "android.emu.debug", "${file}"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "autoAttachChildProcesses": true
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Image Details &amp; Metadata</title>
+<!-- Fonts and Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#13a4ec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101c22",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased min-h-screen flex justify-center">
+<!-- Mobile Container -->
+<div class="relative w-full max-w-md bg-white dark:bg-[#15232b] h-full min-h-screen flex flex-col shadow-2xl mx-auto overflow-hidden">
+<!-- Header -->
+<header class="sticky top-0 z-20 flex items-center justify-between px-4 py-4 bg-white/90 dark:bg-[#15232b]/90 backdrop-blur-md border-b border-slate-100 dark:border-slate-800">
+<button class="flex items-center justify-center p-2 -ml-2 rounded-full text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined">arrow_back_ios_new</span>
+</button>
+<h1 class="text-lg font-bold tracking-tight">Image Details</h1>
+<button class="flex items-center justify-center p-2 -mr-2 text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 rounded-full transition-colors font-medium text-sm">
+                Delete
+            </button>
+</header>
+<!-- Main Scrollable Content -->
+<main class="flex-1 overflow-y-auto pb-24 scrollbar-hide">
+<!-- Image Preview Section -->
+<div class="p-4">
+<div class="group relative w-full h-64 rounded-xl overflow-hidden shadow-sm bg-slate-100 dark:bg-slate-800">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Container shipping survey close up of rust damage" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDXt1TP5_FO7GouFCjzIiwGwGb0SwXQRcFgkjErWsTcmRuPF-PsUbbwcil24lbF1gW7Fr6mZq8vXkemxx7qNrzIhWzD2dfHF7O9AAxjg7_nD53TIPoNvZCnl5Ofl8srw_iIff-0VpHbei-ezb5C2Ip9txOCj59B7A7CCTcFRsCnGMqPYI9c79luZNZTxCV2TnaQBP3DZpnGV1A6mpy36CXhxbRPphiBdo7raXffvPEm5pV6deYivU8evsrqtxfeJT_1VtTSpDAkyDo');">
+</div>
+<!-- Image Overlay Actions -->
+<div class="absolute top-2 right-2 flex gap-2">
+<button class="p-2 bg-black/40 backdrop-blur-sm text-white rounded-lg hover:bg-black/60 transition-colors">
+<span class="material-symbols-outlined text-[20px]">crop_free</span>
+</button>
+</div>
+<!-- Bottom Gradient Overlay -->
+<div class="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-black/50 to-transparent"></div>
+</div>
+</div>
+<!-- Tags Section -->
+<section class="px-4 mb-6">
+<div class="flex items-center justify-between mb-3">
+<h3 class="text-base font-semibold text-slate-900 dark:text-white flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">label</span>
+                        Annotations
+                    </h3>
+</div>
+<div class="bg-slate-50 dark:bg-slate-900/50 rounded-xl p-3 border border-slate-100 dark:border-slate-800">
+<div class="flex flex-wrap gap-2 mb-3">
+<div class="flex items-center gap-1.5 px-3 py-1.5 bg-primary/10 text-primary rounded-lg text-sm font-medium border border-primary/20">
+<span>Damage</span>
+<button class="hover:text-primary/80"><span class="material-symbols-outlined text-[16px]">close</span></button>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1.5 bg-primary/10 text-primary rounded-lg text-sm font-medium border border-primary/20">
+<span>Rust</span>
+<button class="hover:text-primary/80"><span class="material-symbols-outlined text-[16px]">close</span></button>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1.5 bg-primary/10 text-primary rounded-lg text-sm font-medium border border-primary/20">
+<span>Front-Left</span>
+<button class="hover:text-primary/80"><span class="material-symbols-outlined text-[16px]">close</span></button>
+</div>
+</div>
+<div class="relative">
+<input class="w-full pl-3 pr-10 py-2.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg text-sm focus:ring-2 focus:ring-primary/50 focus:border-primary outline-none transition-all placeholder:text-slate-400" placeholder="Add new tag..." type="text"/>
+<button class="absolute right-2 top-1/2 -translate-y-1/2 text-primary p-1 hover:bg-primary/10 rounded-md transition-colors">
+<span class="material-symbols-outlined text-[20px]">add_circle</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Observations Section -->
+<section class="px-4 mb-6">
+<h3 class="text-base font-semibold text-slate-900 dark:text-white mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">edit_note</span>
+                    Observations
+                </h3>
+<textarea class="w-full p-3 bg-slate-50 dark:bg-slate-900/50 border border-slate-200 dark:border-slate-800 rounded-xl text-sm focus:ring-2 focus:ring-primary/50 focus:border-primary outline-none transition-all resize-none placeholder:text-slate-400" placeholder="Describe damage or condition..." rows="4">Severe corrosion observed on the bottom rail. Needs immediate attention before next shipment.</textarea>
+</section>
+<!-- Metadata Section -->
+<section class="px-4 mb-6">
+<h3 class="text-base font-semibold text-slate-900 dark:text-white mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">info</span>
+                    Technical Metadata
+                </h3>
+<div class="bg-slate-50 dark:bg-slate-900/50 rounded-xl border border-slate-200 dark:border-slate-800 overflow-hidden divide-y divide-slate-100 dark:divide-slate-800">
+<!-- Date -->
+<div class="p-3 flex items-center justify-between hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-colors cursor-pointer group">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-white dark:bg-slate-800 flex items-center justify-center text-slate-500 shadow-sm border border-slate-100 dark:border-slate-700">
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+</div>
+<div>
+<p class="text-xs text-slate-500 font-medium">Date Taken</p>
+<p class="text-sm font-medium text-slate-900 dark:text-slate-100">Oct 27, 2023 • 14:30</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-slate-400 text-[18px] group-hover:text-primary transition-colors">edit</span>
+</div>
+<!-- Location with Mini Map -->
+<div class="p-3">
+<div class="flex items-start justify-between mb-2">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-white dark:bg-slate-800 flex items-center justify-center text-slate-500 shadow-sm border border-slate-100 dark:border-slate-700">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+</div>
+<div>
+<p class="text-xs text-slate-500 font-medium">GPS Coordinates</p>
+<p class="text-sm font-medium text-slate-900 dark:text-slate-100">45.12, -12.01</p>
+</div>
+</div>
+<button class="text-primary text-xs font-medium hover:underline">Edit</button>
+</div>
+<!-- Mini Map Preview -->
+<div class="mt-2 w-full h-24 rounded-lg overflow-hidden relative border border-slate-200 dark:border-slate-700">
+<div class="absolute inset-0 bg-cover bg-center opacity-80" data-alt="Map location preview of the shipping port" data-location="Rotterdam Port" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuACOQ_wxU-7YiE2C9XUfpsXRsGLk2k9PSy8Y4iRticaope_YDtCYYguPDmtejUTE2bQ8zQbraSfkR9wOY2GsGRX8UpIhBkq4DUvD8W1FH2BDJ4ycDDE0cUE_d16W9RR2xB4gyOko9HNEM_h_pf_EHnMsamRIrffMKspNw2at85_oYvyi9KizVj0Fme8SFKj8DzxvWYZN0g-RrP5ZBFc9NhAbMyi_lj2bYEHbrb4C7q-RbQJn7pzVrggL44abThqj9ZsIqotUBWiRm4'); background-color: #e5e7eb;">
+<!-- Fallback pattern for map visualization if image fails or for generic representation -->
+<div class="w-full h-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center">
+<span class="material-symbols-outlined text-slate-400">map</span>
+</div>
+</div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+<span class="material-symbols-outlined text-primary drop-shadow-md text-3xl">location_on</span>
+</div>
+</div>
+</div>
+<!-- Device -->
+<div class="p-3 flex items-center justify-between hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-colors cursor-pointer group">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-white dark:bg-slate-800 flex items-center justify-center text-slate-500 shadow-sm border border-slate-100 dark:border-slate-700">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+</div>
+<div>
+<p class="text-xs text-slate-500 font-medium">Device</p>
+<p class="text-sm font-medium text-slate-900 dark:text-slate-100">iPhone 13 Pro</p>
+</div>
+</div>
+</div>
+<!-- File Size -->
+<div class="p-3 flex items-center justify-between hover:bg-slate-100 dark:hover:bg-slate-800/50 transition-colors cursor-pointer group border-b-0">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-white dark:bg-slate-800 flex items-center justify-center text-slate-500 shadow-sm border border-slate-100 dark:border-slate-700">
+<span class="material-symbols-outlined text-[18px]">hard_drive</span>
+</div>
+<div>
+<p class="text-xs text-slate-500 font-medium">Size &amp; Format</p>
+<p class="text-sm font-medium text-slate-900 dark:text-slate-100">4.2 MB • HEIC</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Sticky Footer -->
+<footer class="absolute bottom-0 left-0 right-0 p-4 bg-white/80 dark:bg-[#15232b]/80 backdrop-blur-md border-t border-slate-100 dark:border-slate-800 z-30">
+<button class="w-full bg-primary hover:bg-primary/90 text-white font-semibold py-3.5 px-4 rounded-xl shadow-lg shadow-primary/20 active:scale-[0.98] transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[20px]">save</span>
+                Save Changes
+            </button>
+</footer>
+</div>
+</body></html>

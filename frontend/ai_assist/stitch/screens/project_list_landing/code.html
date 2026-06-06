@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Project List Landing</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#13a4ec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101c22",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-white antialiased">
+<div class="relative flex h-full min-h-screen w-full flex-col overflow-x-hidden max-w-md mx-auto bg-white dark:bg-slate-900 shadow-2xl border-x border-slate-100 dark:border-slate-800">
+<!-- Header / Navigation -->
+<header class="sticky top-0 z-20 flex items-center justify-between bg-white/90 dark:bg-slate-900/90 backdrop-blur-md px-4 py-3 border-b border-slate-100 dark:border-slate-800">
+<h1 class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">Inspections</h1>
+<div class="flex items-center gap-2">
+<button class="flex items-center justify-center h-10 w-10 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-300 transition-colors">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="flex items-center justify-center h-10 w-10 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-300 transition-colors relative group">
+<span class="material-symbols-outlined">more_vert</span>
+<!-- Dropdown Menu (Simulated for visual) -->
+<div class="absolute right-0 top-12 w-48 bg-white dark:bg-slate-800 rounded-xl shadow-xl border border-slate-100 dark:border-slate-700 hidden group-hover:block group-focus:block z-50 p-1">
+<div class="flex items-center gap-3 px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 rounded-lg cursor-pointer">
+<span class="material-symbols-outlined text-[20px]">add_circle</span>
+                            Create Project
+                        </div>
+<div class="flex items-center gap-3 px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 rounded-lg cursor-pointer">
+<span class="material-symbols-outlined text-[20px]">description</span>
+                            Generate Report
+                        </div>
+<div class="flex items-center gap-3 px-3 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-700 rounded-lg cursor-pointer">
+<span class="material-symbols-outlined text-[20px]">cloud_upload</span>
+                            Upload to Cloud
+                        </div>
+</div>
+</button>
+</div>
+</header>
+<!-- Main Content Area -->
+<main class="flex-1 flex flex-col p-4 gap-6">
+<!-- Search Bar -->
+<label class="flex flex-col h-12 w-full">
+<div class="flex w-full flex-1 items-stretch rounded-xl h-full shadow-sm ring-1 ring-slate-200 dark:ring-slate-700 transition-all focus-within:ring-2 focus-within:ring-primary/50">
+<div class="text-slate-400 dark:text-slate-500 flex bg-white dark:bg-slate-800 items-center justify-center pl-4 rounded-l-xl">
+<span class="material-symbols-outlined">search</span>
+</div>
+<input class="flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-slate-900 dark:text-white focus:outline-0 bg-white dark:bg-slate-800 h-full placeholder:text-slate-400 dark:placeholder:text-slate-500 px-3 rounded-l-none text-base font-normal leading-normal" placeholder="Search project ID..." value=""/>
+</div>
+</label>
+<!-- Projects Grid -->
+<div class="grid grid-cols-1 gap-4">
+<!-- Project Card 1 -->
+<div class="group relative bg-white dark:bg-slate-800 rounded-xl p-4 shadow-sm border border-slate-100 dark:border-slate-700 active:scale-[0.99] transition-transform select-none">
+<div class="flex justify-between items-start mb-3">
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center justify-center rounded-full bg-blue-50 dark:bg-blue-900/30 px-2.5 py-0.5 text-xs font-medium text-blue-700 dark:text-blue-300 ring-1 ring-inset ring-blue-600/20">
+                                In Progress
+                            </span>
+</div>
+<button class="text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">more_horiz</span>
+</button>
+</div>
+<div class="flex gap-4 items-center">
+<div class="h-12 w-12 flex-shrink-0 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">inventory_2</span>
+</div>
+<div>
+<h3 class="text-base font-semibold text-slate-900 dark:text-white font-mono tracking-tight">PRJ-2023-849</h3>
+<p class="text-xs text-slate-500 dark:text-slate-400 mt-1 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">calendar_today</span>
+                                Oct 24, 2023
+                            </p>
+</div>
+</div>
+<!-- Selection Indicator (Hidden by default, shown on long press/selection mode) -->
+<div class="absolute top-4 right-4 hidden group-aria-selected:block">
+<span class="material-symbols-outlined text-primary" data-weight="fill">check_circle</span>
+</div>
+</div>
+<!-- Project Card 2 -->
+<div class="group relative bg-white dark:bg-slate-800 rounded-xl p-4 shadow-sm border border-slate-100 dark:border-slate-700 active:scale-[0.99] transition-transform select-none">
+<div class="flex justify-between items-start mb-3">
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center justify-center rounded-full bg-emerald-50 dark:bg-emerald-900/30 px-2.5 py-0.5 text-xs font-medium text-emerald-700 dark:text-emerald-300 ring-1 ring-inset ring-emerald-600/20">
+                                Completed
+                            </span>
+</div>
+<button class="text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">more_horiz</span>
+</button>
+</div>
+<div class="flex gap-4 items-center">
+<div class="h-12 w-12 flex-shrink-0 rounded-lg bg-emerald-500/10 flex items-center justify-center text-emerald-600 dark:text-emerald-400">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div>
+<h3 class="text-base font-semibold text-slate-900 dark:text-white font-mono tracking-tight">PRJ-2023-842</h3>
+<p class="text-xs text-slate-500 dark:text-slate-400 mt-1 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">calendar_today</span>
+                                Oct 20, 2023
+                            </p>
+</div>
+</div>
+</div>
+<!-- Empty State (Conditional Rendering Placeholder) -->
+<div class="hidden flex-col items-center justify-center py-12 px-4 text-center border-2 border-dashed border-slate-200 dark:border-slate-700 rounded-xl bg-slate-50/50 dark:bg-slate-800/30">
+<div class="h-24 w-24 bg-slate-100 dark:bg-slate-700 rounded-full flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-[48px] text-slate-400 dark:text-slate-500">assignment_add</span>
+</div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white mb-2">No Projects Yet</h3>
+<p class="text-sm text-slate-500 dark:text-slate-400 max-w-[240px] mb-6">Start your first survey inspection to generate a report.</p>
+<button class="bg-primary hover:bg-primary/90 text-white font-semibold py-2.5 px-6 rounded-lg shadow-lg shadow-primary/20 transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">add</span>
+                        Create Project
+                    </button>
+</div>
+</div>
+<!-- Image Card Example -->
+<div class="mt-4">
+<div class="relative w-full aspect-[2/1] rounded-xl overflow-hidden shadow-md group cursor-pointer">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10"></div>
+<img alt="Stack of shipping containers in a port yard" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Shipping containers stacked in a yard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGy46TFmJHXR4TWOtQv8SJStLOh67xNyYeRg7knKjUH7KKMIgt-sHLcBra_q44G8OyjZzMpPhXPx16t3jizEW58MohVFkD7YHZys22gXQzFUQmGO90X4uRpQapw9x40aZJOqnb0aQwkfyKMfIgkkDLMVlCupKOTdgfDjRBuvVDa5NqbTSAg7nAKE-M7_Tt864IGvfhnFvELxG42b2_sRASi7V3BzSGvDomwf11TO5VyVujt2_xAK9F0AkPSGvRfnY0Zd-uDJiWuR0"/>
+<div class="absolute bottom-0 left-0 right-0 p-4 z-20 flex justify-between items-end">
+<div>
+<p class="text-white/80 text-xs font-medium uppercase tracking-wider mb-1">Last Viewed</p>
+<h3 class="text-white text-lg font-bold">Port of Singapore</h3>
+</div>
+<button class="h-8 w-8 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-white hover:bg-white/30 transition-colors">
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+<!-- Floating Action Button (Mobile Primary Action) -->
+<div class="fixed bottom-24 right-6 z-30 lg:hidden">
+<button class="h-14 w-14 bg-primary text-white rounded-full shadow-lg shadow-primary/30 flex items-center justify-center hover:bg-primary/90 hover:scale-105 transition-all active:scale-95">
+<span class="material-symbols-outlined text-[28px]">add</span>
+</button>
+</div>
+<!-- Bottom Navigation Bar -->
+<div class="flex gap-2 border-t border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 px-4 pb-6 pt-2 z-20">
+<a class="flex flex-1 flex-col items-center justify-end gap-1 rounded-xl py-2 text-primary dark:text-primary transition-colors hover:bg-slate-50 dark:hover:bg-slate-800" href="#">
+<span class="material-symbols-outlined text-[24px]" data-weight="fill">assignment</span>
+<p class="text-xs font-medium leading-normal tracking-wide">Projects</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 rounded-xl py-2 text-slate-400 dark:text-slate-500 transition-colors hover:text-slate-600 dark:hover:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800" href="#">
+<span class="material-symbols-outlined text-[24px]">draft</span>
+<p class="text-xs font-medium leading-normal tracking-wide">Drafts</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 rounded-xl py-2 text-slate-400 dark:text-slate-500 transition-colors hover:text-slate-600 dark:hover:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800" href="#">
+<span class="material-symbols-outlined text-[24px]">person</span>
+<p class="text-xs font-medium leading-normal tracking-wide">Profile</p>
+</a>
+</div>
+</div>
+</body></html>

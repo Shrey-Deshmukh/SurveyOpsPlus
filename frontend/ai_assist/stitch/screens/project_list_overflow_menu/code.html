@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Project List Overflow Menu</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#13a4ec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101c22",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+<div class="relative flex h-[844px] w-[390px] flex-col bg-background-light dark:bg-background-dark overflow-hidden rounded-[2rem] shadow-2xl border-4 border-gray-900/10">
+<!-- Status Bar Area (Mock) -->
+<div class="h-12 w-full flex items-end justify-between px-6 pb-2 text-black dark:text-white select-none z-20">
+<span class="text-sm font-semibold">9:41</span>
+<div class="flex gap-1.5">
+<span class="material-symbols-outlined text-sm" style="font-size: 18px;">signal_cellular_alt</span>
+<span class="material-symbols-outlined text-sm" style="font-size: 18px;">wifi</span>
+<span class="material-symbols-outlined text-sm" style="font-size: 18px;">battery_full</span>
+</div>
+</div>
+<!-- Header -->
+<header class="flex items-center justify-between px-4 py-3 bg-white dark:bg-[#1a2c35] z-20 relative shadow-sm">
+<h1 class="text-2xl font-bold text-gray-900 dark:text-white tracking-tight">Projects</h1>
+<div class="flex items-center gap-2">
+<button class="flex items-center justify-center w-10 h-10 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300 transition-colors">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="relative flex items-center justify-center w-10 h-10 rounded-full bg-primary/10 text-primary transition-colors">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+</div>
+</header>
+<!-- Main Content (List) -->
+<main class="flex-1 overflow-y-auto px-4 py-4 space-y-4 hide-scrollbar relative z-10">
+<!-- Project Card 1 -->
+<div class="bg-white dark:bg-[#1a2c35] p-4 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 flex flex-col gap-3">
+<div class="flex justify-between items-start">
+<div class="flex gap-3">
+<div class="w-12 h-12 rounded-lg bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">inventory_2</span>
+</div>
+<div>
+<h3 class="font-bold text-gray-900 dark:text-white">#CN-4829</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Rotterdam Port • Terminal 4</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-300">
+                        In Progress
+                    </span>
+</div>
+<div class="h-px bg-gray-100 dark:bg-gray-700 w-full"></div>
+<div class="flex justify-between items-center text-sm text-gray-500 dark:text-gray-400">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>Oct 24, 2023</span>
+</div>
+<div class="flex -space-x-2">
+<div class="w-6 h-6 rounded-full bg-gray-200 border-2 border-white dark:border-[#1a2c35] flex items-center justify-center text-[10px] font-bold text-gray-600">JD</div>
+<div class="w-6 h-6 rounded-full bg-primary text-white border-2 border-white dark:border-[#1a2c35] flex items-center justify-center text-[10px] font-bold">MK</div>
+</div>
+</div>
+</div>
+<!-- Project Card 2 -->
+<div class="bg-white dark:bg-[#1a2c35] p-4 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 flex flex-col gap-3 opacity-60">
+<div class="flex justify-between items-start">
+<div class="flex gap-3">
+<div class="w-12 h-12 rounded-lg bg-orange-50 dark:bg-orange-900/20 flex items-center justify-center text-orange-500">
+<span class="material-symbols-outlined">warning</span>
+</div>
+<div>
+<h3 class="font-bold text-gray-900 dark:text-white">#MS-9921</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Singapore • Yard B</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full text-xs font-medium bg-orange-50 text-orange-600 dark:bg-orange-900/30 dark:text-orange-300">
+                        Pending Upload
+                    </span>
+</div>
+<div class="h-px bg-gray-100 dark:bg-gray-700 w-full"></div>
+<div class="flex justify-between items-center text-sm text-gray-500 dark:text-gray-400">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>Oct 22, 2023</span>
+</div>
+<div class="flex -space-x-2">
+<div class="w-6 h-6 rounded-full bg-primary text-white border-2 border-white dark:border-[#1a2c35] flex items-center justify-center text-[10px] font-bold">MK</div>
+</div>
+</div>
+</div>
+<!-- Project Card 3 -->
+<div class="bg-white dark:bg-[#1a2c35] p-4 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 flex flex-col gap-3 opacity-60">
+<div class="flex justify-between items-start">
+<div class="flex gap-3">
+<div class="w-12 h-12 rounded-lg bg-green-50 dark:bg-green-900/20 flex items-center justify-center text-green-600">
+<span class="material-symbols-outlined">check_circle</span>
+</div>
+<div>
+<h3 class="font-bold text-gray-900 dark:text-white">#NY-1023</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Newark • Gate 12</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full text-xs font-medium bg-green-50 text-green-600 dark:bg-green-900/30 dark:text-green-300">
+                        Completed
+                    </span>
+</div>
+<div class="h-px bg-gray-100 dark:bg-gray-700 w-full"></div>
+<div class="flex justify-between items-center text-sm text-gray-500 dark:text-gray-400">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>Oct 20, 2023</span>
+</div>
+<div class="w-6 h-6 rounded-full bg-gray-200 border-2 border-white dark:border-[#1a2c35] flex items-center justify-center text-[10px] font-bold text-gray-600">JD</div>
+</div>
+</div>
+<!-- Project Card 4 -->
+<div class="bg-white dark:bg-[#1a2c35] p-4 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 flex flex-col gap-3 opacity-60">
+<div class="flex justify-between items-start">
+<div class="flex gap-3">
+<div class="w-12 h-12 rounded-lg bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">inventory_2</span>
+</div>
+<div>
+<h3 class="font-bold text-gray-900 dark:text-white">#HK-3321</h3>
+<p class="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Hong Kong • Terminal 1</p>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-600 dark:bg-gray-700 dark:text-gray-300">
+                        Draft
+                    </span>
+</div>
+<div class="h-px bg-gray-100 dark:bg-gray-700 w-full"></div>
+<div class="flex justify-between items-center text-sm text-gray-500 dark:text-gray-400">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span>Oct 18, 2023</span>
+</div>
+<div class="flex -space-x-2">
+<div class="w-6 h-6 rounded-full bg-purple-500 text-white border-2 border-white dark:border-[#1a2c35] flex items-center justify-center text-[10px] font-bold">AL</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Overlay for Menu Focus -->
+<div class="absolute inset-0 bg-black/20 z-30 backdrop-blur-[1px]"></div>
+<!-- Floating Overflow Menu -->
+<div class="absolute top-14 right-4 w-60 bg-white dark:bg-[#1e293b] rounded-xl shadow-xl z-40 overflow-hidden ring-1 ring-black/5 animate-in fade-in zoom-in-95 duration-200">
+<div class="py-1">
+<!-- Menu Item 1: Create Project -->
+<button class="w-full text-left px-4 py-3 flex items-center gap-3 hover:bg-gray-50 dark:hover:bg-white/5 transition-colors group">
+<span class="material-symbols-outlined text-primary group-hover:scale-110 transition-transform">add_circle</span>
+<span class="text-sm font-medium text-gray-900 dark:text-white">Create Project</span>
+</button>
+<!-- Divider -->
+<div class="h-px bg-gray-100 dark:bg-gray-700 mx-4"></div>
+<!-- Menu Item 2: Report Generation -->
+<button class="w-full text-left px-4 py-3 flex items-center gap-3 hover:bg-gray-50 dark:hover:bg-white/5 transition-colors group">
+<span class="material-symbols-outlined text-gray-500 dark:text-gray-400 group-hover:text-primary transition-colors">description</span>
+<span class="text-sm font-medium text-gray-700 dark:text-gray-200">Report Generation</span>
+</button>
+<!-- Menu Item 3: Upload to Cloud -->
+<button class="w-full text-left px-4 py-3 flex items-center gap-3 hover:bg-gray-50 dark:hover:bg-white/5 transition-colors group">
+<span class="material-symbols-outlined text-gray-500 dark:text-gray-400 group-hover:text-primary transition-colors">cloud_upload</span>
+<div class="flex flex-col">
+<span class="text-sm font-medium text-gray-700 dark:text-gray-200">Upload to Cloud</span>
+<span class="text-[10px] text-gray-400">Syncs all pending items</span>
+</div>
+</button>
+</div>
+</div>
+<!-- Bottom Navigation Bar -->
+<nav class="relative z-20 flex gap-2 border-t border-[#f0f3f4] dark:border-gray-800 bg-white dark:bg-[#1a2c35] px-4 pb-6 pt-2">
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-[#617c89] dark:text-gray-400 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-2xl">home</span>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-primary" href="#">
+<span class="material-symbols-outlined text-2xl fill-current">format_list_bulleted</span>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Projects</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-[#617c89] dark:text-gray-400 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-2xl">description</span>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Reports</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-[#617c89] dark:text-gray-400 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-2xl">settings</span>
+<p class="text-xs font-medium leading-normal tracking-[0.015em]">Settings</p>
+</a>
+</nav>
+<!-- Floating Action Button (Optional but adds to the context) -->
+<button class="absolute bottom-24 right-4 w-14 h-14 bg-primary rounded-full shadow-lg shadow-primary/40 flex items-center justify-center text-white z-10 hover:scale-105 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-3xl">add</span>
+</button>
+</div>
+</body></html>

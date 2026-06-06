@@ -1,0 +1,716 @@
+[
+  {
+    "image_name": "image1.jpg",
+    "tags": [
+      "Container ID: HLBU 950 992 4",
+      "Container type: 45R1 (Reefer container)",
+      "Shipping line: Hapag-Lloyd",
+      "MAX. GROSS: 34,000 kg (74,960 lbs)",
+      "TARE: 4,450 kg (9,810 lbs)",
+      "MAX. PAYLOAD: 29,550 kg (65,150 lbs)",
+      "CUBE: 67.5 m³ (2,384 cuft)",
+      "Overall external condition: General dirt/grime, no significant structural damage visible",
+      "Trailer chassis ID: MCCZ 341236",
+      "Chassis license plate: U956943 Tennessee"
+    ],
+    "location_desc": "Full rear view of the Hapag-Lloyd reefer container mounted on a chassis at a loading dock.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: IICL-6 container external inspection guidelines",
+      "Source Name: IICL",
+      "Standard Description: IICL-6 standard specifies detailed inspection criteria for various container components, including permissible dent sizes, rust tolerances, and other damage thresholds."
+    ],
+    "internet_ref_description": "General industry standards for external container integrity and markings."
+  },
+  {
+    "image_name": "image2.jpg",
+    "tags": [
+      "Container ID: HLBU 950 992 4",
+      "Container type: 45R1 (Reefer container)",
+      "Shipping line: Hapag-Lloyd",
+      "Reefer unit: Visible at the front, unit number HLHG 820700 1",
+      "Overall external condition: General dirt/grime, no significant structural damage visible on side panel",
+      "Chassis: Visible underneath the container"
+    ],
+    "location_desc": "Angled side view of the Hapag-Lloyd reefer container and its refrigeration unit.",
+    "manual_ref": [
+      "Page 1: 'The external integrity of the reefer container should also be checked for damage with any defects noted and photographed.'"
+    ],
+    "manual_ref_description": "The manual requires checking the external integrity of the reefer container for any damage.",
+    "internet_ref_links": [
+      "Search Query: IICL-6 reefer container damage inspection",
+      "Source Name: IICL",
+      "Standard Description: IICL-6 covers structural integrity and appearance for container components."
+    ],
+    "internet_ref_description": "General industry standards for external container integrity and reefer unit condition."
+  },
+  {
+    "image_name": "image3.jpg",
+    "tags": [
+      "Reefer unit model/ID: HLHG 820700 1",
+      "Chassis ID: CVA 6",
+      "Overall condition of reefer unit: Appears operational with visible fans and control panel, general wear and tear, no obvious heavy damage",
+      "Warning labels: Present and legible"
+    ],
+    "location_desc": "Front view of the reefer unit of the container.",
+    "manual_ref": [
+      "Page 1: 'The crew should check that the container set temperature complies with the shippers' specified carriage instructions. The external integrity of the reefer container should also be checked for damage with any defects noted and photographed.'"
+    ],
+    "manual_ref_description": "The manual emphasizes checking the container's external integrity and set temperature during loading.",
+    "internet_ref_links": [],
+    "internet_ref_description": "General industry practice for visual inspection of reefer unit components for operational integrity."
+  },
+  {
+    "image_name": "image4.jpg",
+    "tags": [
+      "Container ID: HLBU 950 992 4",
+      "Shipping line: Hapag-Lloyd",
+      "Reefer unit: Visible at the front",
+      "Overall external condition: General dirt/grime, no significant structural damage visible on side panel"
+    ],
+    "location_desc": "Angled side view of the Hapag-Lloyd reefer container and its refrigeration unit from the opposite side of image 2.",
+    "manual_ref": [
+      "Page 1: 'The external integrity of the reefer container should also be checked for damage with any defects noted and photographed.'"
+    ],
+    "manual_ref_description": "The manual requires checking the external integrity of the reefer container for any damage.",
+    "internet_ref_links": [
+      "Search Query: IICL-6 reefer container damage inspection",
+      "Source Name: IICL",
+      "Standard Description: IICL-6 covers structural integrity and appearance for container components."
+    ],
+    "internet_ref_description": "General industry standards for external container integrity and reefer unit condition."
+  },
+  {
+    "image_name": "image5.jpg",
+    "tags": [
+      "Reefer unit display: SETPOINT -17.7 C",
+      "Reefer unit display: RETURN -13.5 C",
+      "Reefer unit display: SUP -17.8 C",
+      "Alarm indicator: OFF",
+      "In-Range indicator: ON",
+      "Temperature Readings: Return air temperature (-13.5°C) is significantly warmer than setpoint (-17.7°C) and supply air (-17.8°C) (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Close-up of the reefer unit's control panel display.",
+    "manual_ref": [
+      "Page 1: 'The reefer container is designed to maintain the cargo temperature rather than cool it. Ideally, all cargoes should be loaded at the intended carriage temperature to ensure product quality is maintained.'",
+      "Page 4: 'Ensure compliance with the shippers' carriage instructions. When loaded, make sure that the container's set temperature complies with the carriage instructions.'"
+    ],
+    "manual_ref_description": "The manual states reefer containers maintain cargo temperature, implying that significant deviations in return air temperature from setpoint or supply air could indicate issues with cargo temperature maintenance or airflow.",
+    "internet_ref_links": [],
+    "internet_ref_description": "Standard reefer operation indicates return air temperature should be close to or slightly higher than supply air/setpoint, a large difference implies significant heat load or poor circulation."
+  },
+  {
+    "image_name": "image6.jpg",
+    "tags": [
+      "Security seal: Yellow plastic bolt seal, intact",
+      "Seal number: UL-5348587"
+    ],
+    "location_desc": "Close-up of a container door locking bar with an intact security seal.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: USDA Food Defense Guidelines seal integrity",
+      "Source Name: USDA Food Defense Guidelines for Transportation and Distribution of Meat, Poultry and Processed Egg Products",
+      "Standard Description: Have a strictly enforced seal program. Identify and require seal specifications (e.g., tamper-proof, numbered seals, etc.). Inspect shipping containers closely for any evidence of tampering."
+    ],
+    "internet_ref_description": "USDA guidelines require verification of seal numbers and integrity throughout the distribution process."
+  },
+  {
+    "image_name": "image7.jpg",
+    "tags": [
+      "CSC Safety Approval Plate: Present and legible",
+      "Approved for Transport under Customs Seal: GB/C 45415 DEKRA/2020",
+      "Type: MQRS-40HS-062A",
+      "Manufacturer's No. of the container: QM20- 34283",
+      "Manufactured by: MAERSK CONTAINER INDUSTRY QINGDAO LTD.",
+      "Date Manufactured: 10 /2020",
+      "Approval Reference: D-HH-5280",
+      "Maximum Operating Gross Mass: 34,000 kg (74,960 lbs)",
+      "Allowable Stacking Load for 1.8G: 227,500 kg (501,501 lbs)",
+      "Transverse Racking Test Force: 150,000 newtons",
+      "Operator: Hapag-Lloyd Germany",
+      "Next Examination Date: ACEP-D HH-3",
+      "Timber Component Treatment: NO EXPOSED TIMBER"
+    ],
+    "location_desc": "Close-up of the container's CSC (Convention for Safe Containers) safety approval plate.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Source Name: IICL",
+      "Standard Description: Every container in international transport must have a valid CSC plate; validity is limited (usually 30 months). CSC confirms that a container is structurally safe for international transport."
+    ],
+    "internet_ref_description": "The CSC plate certifies the container's structural integrity and safety for international transport as per the International Convention for Safe Containers."
+  },
+  {
+    "image_name": "image8.jpg",
+    "tags": [
+      "Interior condition: Clean and well-maintained T-bar floor",
+      "Cargo stowage: Cartons stacked evenly, appearing to be within load lines",
+      "Product: Hatfield branded cartons, consistent packaging",
+      "Overall appearance: Cargo fills the container, indicating full load"
+    ],
+    "location_desc": "Interior view of the loaded container from the door opening.",
+    "manual_ref": [
+      "Page 3: 'The cargo should always be kept below the load line of the container, away from the container walls and not beyond the T bars to allow the refrigerated air to flow freely around the whole of the stow.'"
+    ],
+    "manual_ref_description": "The manual emphasizes proper stowage to ensure adequate airflow around the cargo for effective cooling.",
+    "internet_ref_links": [],
+    "internet_ref_description": "General industry best practices for cargo loading in reefer containers to ensure airflow and temperature maintenance."
+  },
+  {
+    "image_name": "image9.jpg",
+    "tags": [
+      "Cargo: Hatfield branded cardboard cartons",
+      "Product labels: Visible, indicating 'FOR EXPORT TO THE PHILIPPINES' and USDA inspection stamp",
+      "Packaging condition: Cartons appear generally intact, some minor wear visible",
+      "Stowage: Neatly stacked on the T-bar floor"
+    ],
+    "location_desc": "Close-up of stacked cargo boxes inside the container.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Source Name: USDA Food Defense Guidelines for Transportation and Distribution of Meat, Poultry and Processed Egg Products",
+      "Standard Description: Check and document the condition of the product and packaging upon receipt at the destination."
+    ],
+    "internet_ref_description": "USDA guidelines for ensuring product and packaging integrity during transit."
+  },
+  {
+    "image_name": "image10.jpg",
+    "tags": [
+      "T-bar floor: Visible beneath cargo cartons",
+      "Reddish liquid: Small amount of reddish liquid (purge/myoglobin) visible in the channels of the T-bar floor (NEEDS ATTENTION)",
+      "Carton condition: Bottoms of cartons appear intact, no visible wetness"
+    ],
+    "location_desc": "Close-up of the T-bar floor beneath cargo boxes, showing some reddish liquid.",
+    "manual_ref": [
+      "Page 2: 'Temperature abuse: This covers a variety of possible issues... for frozen products these might include premature ripening, freezer burn, frosting and textural changes.'",
+      "Page 2: 'If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture due to the slow formation of large ice crystals. This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration.'"
+    ],
+    "manual_ref_description": "The presence of reddish liquid (purge) can indicate temperature abuse, leading to cell rupture and blood serum separation in meat.",
+    "internet_ref_links": [
+      "Search Query: frozen meat purge myoglobin",
+      "Source Name: Ask USDA",
+      "Standard Description: Reddish watery discharge from meat, called the 'purge,' is mostly water stained by red muscle cells (myoglobin), not blood. Anything that breaks/disrupts the integrity of the muscle cells would cause more purge."
+    ],
+    "internet_ref_description": "Purge indicates moisture loss due to cell damage, often from freezing/thawing cycles, which affects meat quality."
+  },
+  {
+    "image_name": "image11.jpg",
+    "tags": [
+      "T-bar floor: Visible, with a moderate amount of reddish liquid present (NEEDS ATTENTION)",
+      "Cargo boxes: Hatfield branded, stacked on the floor",
+      "Condition: Liquid appears to be accumulating in the floor channels"
+    ],
+    "location_desc": "Another close-up of cargo boxes and the T-bar floor, showing more reddish liquid.",
+    "manual_ref": [
+      "Page 2: 'If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture due to the slow formation of large ice crystals. This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration.'"
+    ],
+    "manual_ref_description": "Accumulation of purge suggests temperature fluctuations and potential damage to the frozen meat.",
+    "internet_ref_links": [
+      "Search Query: meat purge contamination risk",
+      "Source Name: Unveiling Meat Purge: Exploring the Red Liquid Mystery in Your Steak - The Daily Meal",
+      "Standard Description: Treat purge like raw meat, as it can harbor harmful bacteria that can cause gastrointestinal diseases. Avoid packages of meat that have excessive amounts of purge."
+    ],
+    "internet_ref_description": "Excessive purge indicates quality degradation and poses a food safety risk due to potential bacterial growth."
+  },
+  {
+    "image_name": "image12.jpg",
+    "tags": [
+      "T-bar floor: Significant accumulation of reddish liquid (purge/myoglobin) (NEEDS ATTENTION)",
+      "Floor condition: Channels filled with liquid, indicating substantial leakage from cargo",
+      "Sanitation: Poor, with visible fluid that could harbor bacteria"
+    ],
+    "location_desc": "Close-up view of the T-bar floor with extensive reddish liquid accumulation.",
+    "manual_ref": [
+      "Page 2: 'If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture due to the slow formation of large ice crystals. This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration.'"
+    ],
+    "manual_ref_description": "Extensive blood serum separation indicates severe temperature abuse and cellular damage to the frozen product.",
+    "internet_ref_links": [
+      "Search Query: frozen meat purge causes",
+      "Source Name: Unveiling Meat Purge: Exploring the Red Liquid Mystery in Your Steak - The Daily Meal",
+      "Standard Description: When frozen meat thaws, the ice crystals formed during freezing cut the muscle cells, causing water and myoglobin to leak out."
+    ],
+    "internet_ref_description": "Significant purge is a strong indicator of thawing and refreezing, which degrades meat quality and poses a food safety hazard."
+  },
+  {
+    "image_name": "image13.jpg",
+    "tags": [
+      "T-bar floor: Reddish liquid (purge/myoglobin) present in channels (NEEDS ATTENTION)",
+      "Floor condition: Evidence of rust spots mixed with the liquid (NEEDS ATTENTION)",
+      "Sanitation: Liquid and rust indicate compromised hygiene and potential for corrosion of the aluminum floor"
+    ],
+    "location_desc": "Close-up of the T-bar floor with reddish liquid and rust spots.",
+    "manual_ref": [
+      "Page 2: 'If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture due to the slow formation of large ice crystals. This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration.'"
+    ],
+    "manual_ref_description": "The presence of purge is a sign of temperature abuse, and its interaction with the container's structure can lead to further damage like rust.",
+    "internet_ref_links": [
+      "Search Query: USDA food safety meat juices",
+      "Source Name: Food Safety Facts Basics for Handling Food Safely - USDA",
+      "Standard Description: Perishable food such as meat and poultry should be wrapped securely to maintain quality and to prevent meat juices from getting onto other food."
+    ],
+    "internet_ref_description": "Meat juices (purge) in contact with the container floor indicate improper packaging or thawing, leading to unsanitary conditions and potential corrosion."
+  },
+  {
+    "image_name": "image14.jpg",
+    "tags": [
+      "T-bar floor: Reddish liquid (purge/myoglobin) with organic debris (NEEDS ATTENTION)",
+      "Debris: Appears to be small pieces of cardboard/packaging mixed with the liquid",
+      "Sanitation: Very poor, significant leakage and contamination present",
+      "Floor integrity: Some corrosion visible on the floor surface due to sustained exposure to liquid (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Angled view of the T-bar floor, showing liquid and organic debris in the channels.",
+    "manual_ref": [
+      "Page 2: 'Poor airflow might also be caused by condensation freezing and blocking the T-bar floor.'"
+    ],
+    "manual_ref_description": "While the manual mentions blocking by condensation freezing, organic debris mixed with liquid also impedes airflow and indicates significant cargo integrity issues.",
+    "internet_ref_links": [
+      "Search Query: USDA foodborne illness prevention meat juices",
+      "Source Name: Food Safety Facts Basics for Handling Food Safely - USDA",
+      "Standard Description: Never choose meat or poultry in packaging that is torn or leaking. Discard any foods that have been contaminated by raw meat juices."
+    ],
+    "internet_ref_description": "The presence of organic debris and meat juices indicates leakage, which creates unsanitary conditions and a high risk of bacterial contamination and foodborne illness."
+  },
+  {
+    "image_name": "image16.jpg",
+    "tags": [
+      "Temperature data logger: TempTale.Ultra, handheld",
+      "Temperature reading: 12.0 °F (-11.1 °C) (NEEDS ATTENTION)",
+      "Buttons: Start and Stop visible",
+      "Operational status: Display appears active and functional"
+    ],
+    "location_desc": "A hand holding a temperature data logger showing a reading.",
+    "manual_ref": [
+      "Page 2: 'Temperature abuse: This covers a variety of possible issues; for example, power supply problems may cause fluctuations in delivery temperature or an incorrect temperature set point, exposing cargo to the wrong delivery temperature.'",
+      "Page 2: 'For fresh or frozen products these might include premature ripening, freezer burn, frosting and textural changes.'"
+    ],
+    "manual_ref_description": "The recorded temperature of -11.1°C is significantly above the optimal storage temperature for frozen pork, indicating temperature abuse that can lead to quality degradation.",
+    "internet_ref_links": [
+      "Search Query: USDA optimal frozen pork temperature",
+      "Source Name: Freezing and Food Safety - USDA",
+      "Standard Description: The optimal storage temperature for meat in the freezer is 0 degrees F (-18 degrees C). Store all foods at 0° F or lower to retain vitamin content, color, flavor and texture."
+    ],
+    "internet_ref_description": "Frozen pork should be stored at 0°F (-18°C) or colder for optimal quality and safety. A temperature of 12.0°F (-11.1°C) indicates the product has been exposed to temperatures warmer than recommended, compromising its quality."
+  },
+  {
+    "image_name": "image15.jpg",
+    "tags": [
+      "Temperature data logger: TempTale.Ultra, placed on a cargo carton",
+      "Condition: Wrapped in clear plastic, appears intact",
+      "Labeling: USDA certificate number visible on the carton",
+      "Purpose: Used for continuous temperature monitoring during transit"
+    ],
+    "location_desc": "Close-up of a temperature data logger secured to a cargo box within the container.",
+    "manual_ref": [
+      "Page 4: 'Keep clear and accurate records of temperature, ventilation, and other relevant aspects. The records must cover each stage of the voyage, from loading to discharge.'"
+    ],
+    "manual_ref_description": "The manual emphasizes the importance of accurate temperature records for loss prevention and claim defense.",
+    "internet_ref_links": [],
+    "internet_ref_description": "Standard practice in refrigerated cargo transport to use data loggers for independent temperature verification."
+  },
+  {
+    "image_name": "image17.jpg",
+    "tags": [
+      "Data logger model: TempTale.Ultra SENSI tech",
+      "Model number: TUA00.01.62B",
+      "Recording duration: 222 Days",
+      "Temperature range settings: 22F To 15F (implies a programmed range)",
+      "Logging interval: 20 Mins Intvl, 30 Mins Delay",
+      "Manufacturer: Sensitech Inc."
+    ],
+    "location_desc": "Back view of the handheld temperature data logger, showing technical specifications.",
+    "manual_ref": [
+      "Page 4: 'Keep clear and accurate records of temperature, ventilation, and other relevant aspects. The records must cover each stage of the voyage, from loading to discharge.'"
+    ],
+    "manual_ref_description": "The detailed specifications of the data logger are crucial for verifying the accuracy and reliability of temperature records.",
+    "internet_ref_links": [],
+    "internet_ref_description": "Technical specifications provide information on the device's capabilities and recording parameters for cargo monitoring."
+  },
+  {
+    "image_name": "image18.jpg",
+    "tags": [
+      "Temperature measurement tool: Southwire infrared thermometer",
+      "Temperature reading: -07.5 °C (NEEDS ATTENTION)",
+      "Max temperature observed: -06.5 °C (NEEDS ATTENTION)",
+      "Target: Cargo boxes inside the container"
+    ],
+    "location_desc": "A hand holding an infrared thermometer pointed at cargo, showing a temperature reading.",
+    "manual_ref": [
+      "Page 2: 'Temperature abuse: This covers a variety of possible issues... for frozen products these might include premature ripening, freezer burn, frosting and textural changes.'"
+    ],
+    "manual_ref_description": "A product temperature of -7.5°C is significantly warmer than the optimal -18°C for frozen meat, indicating temperature abuse and potential for product degradation.",
+    "internet_ref_links": [
+      "Search Query: USDA optimal frozen pork temperature",
+      "Source Name: Freezing and Food Safety - USDA",
+      "Standard Description: The optimal storage temperature for meat in the freezer is 0 degrees F (-18 degrees C)."
+    ],
+    "internet_ref_description": "Maintaining frozen meat at 0°F (-18°C) or colder is critical for safety and quality. Higher temperatures indicate a deviation from safe storage practices."
+  },
+  {
+    "image_name": "image19.jpg",
+    "tags": [
+      "Cargo: Hatfield branded cardboard cartons",
+      "Stowage: Stacked on a wooden pallet",
+      "Packaging condition: Generally intact, minor scuffs visible",
+      "Quantity: Several cartons visible, ready for handling"
+    ],
+    "location_desc": "Cargo boxes stacked on a wooden pallet, likely in a staging area outside the container.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [],
+    "internet_ref_description": "Standard practice for temporary storage of cargo on pallets during loading or unloading operations."
+  },
+  {
+    "image_name": "image20.jpg",
+    "tags": [
+      "Cargo box: Hatfield branded cardboard carton",
+      "Damage: Crushed and torn corner of the carton (NEEDS ATTENTION)",
+      "Impact: Compromised structural integrity of the packaging"
+    ],
+    "location_desc": "Close-up of a damaged cargo box on a wooden pallet.",
+    "manual_ref": [
+      "Page 1: 'The external integrity of the reefer container should also be checked for damage with any defects noted and photographed. The shipper should be notified of any physical damage to the container.'"
+    ],
+    "manual_ref_description": "While referring to the container, the principle of documenting physical damage extends to cargo packaging to ensure product integrity.",
+    "internet_ref_links": [
+      "Search Query: USDA guidelines damaged food packaging",
+      "Source Name: Food Safety Facts Basics for Handling Food Safely - USDA",
+      "Standard Description: Never choose meat or poultry in packaging that is torn or leaking."
+    ],
+    "internet_ref_description": "Damaged packaging can compromise product safety and quality by allowing contamination or spoilage."
+  },
+  {
+    "image_name": "image21.jpg",
+    "tags": [
+      "Product description: 01244 PORK TONGUE TRIM",
+      "Weight: 15.0 kg Net Wt. (33.07 lb Net Wt.)",
+      "Storage instructions: KEEP FROZEN",
+      "Origin: PRODUCT OF USA",
+      "Pack date: PKG ON 11/12/25 (November 12, 2025)",
+      "Establishment: EST. 791 C CLEMENS FOOD GROUP HATFIELD, PA 19440-0902",
+      "Inspection stamp: U.S. INSPECTED AND PASSED BY DEPARTMENT OF AGRICULTURE EST # ON LABEL",
+      "Time: 15:38:12"
+    ],
+    "location_desc": "Close-up of a product label on a cargo box.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: USDA frozen pork storage temperature",
+      "Source Name: Freezing and Food Safety - USDA",
+      "Standard Description: Food stored constantly at 0 °F (-17.7 °C) will always be safe."
+    ],
+    "internet_ref_description": "USDA standards mandate specific labeling for meat products, including origin and inspection, and emphasize maintaining appropriate frozen temperatures for safety and quality."
+  },
+  {
+    "image_name": "image22.jpg",
+    "tags": [
+      "Product description: PORK TONGUE TRIM",
+      "Export destination: FOR EXPORT TO THE PHILIPPINES",
+      "Expiration date: EXPIRATION DATE 24 MONTHS FROM THE PACK DATE (implies 11/12/27 based on PKG ON 11/12/25 from image 21)",
+      "USDA approval: APPROVED FOR EXPORT, USDA Certificate No. 1268915"
+    ],
+    "location_desc": "Close-up of another product label on a cargo box, highlighting export details.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: USDA export requirements meat Philippines",
+      "Source Name: United States of America (US) – Export requirements for meat and poultry products - CFIA",
+      "Standard Description: All shipments of meat products that are offered for import into the United States must be presented for re-inspection at a FSIS official import inspection establishment."
+    ],
+    "internet_ref_description": "USDA provides specific guidelines for meat product labeling and export, ensuring compliance with destination country regulations and maintaining traceability."
+  },
+  {
+    "image_name": "image23.jpg",
+    "tags": [
+      "Product: Frozen pork tongue trim, individually plastic-wrapped",
+      "Packaging: Blue plastic bags within cardboard carton",
+      "Condition: Visible frost/ice crystals on the product (NEEDS ATTENTION)",
+      "Appearance: Meat pieces appear frozen together"
+    ],
+    "location_desc": "Inside an opened cargo box, showing the product in plastic wrapping.",
+    "manual_ref": [
+      "Page 2: 'Temperature abuse: This covers a variety of possible issues; for example, power supply problems may cause fluctuations in delivery temperature or an incorrect temperature set point, exposing cargo to the wrong delivery temperature. ... for frozen products these might include premature ripening, freezer burn, frosting and textural changes.'",
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": "Visible frost indicates temperature abuse, suggesting the product has undergone thawing and refreezing cycles, leading to quality degradation.",
+    "internet_ref_links": [
+      "Search Query: frozen meat ice crystals quality",
+      "Source Name: Freezing and Food Safety - USDA",
+      "Standard Description: If frozen at peak quality, thawed foods emerge tasting better than foods frozen near the end of their useful life. Only the quality suffers with lengthy freezer storage."
+    ],
+    "internet_ref_description": "Excessive ice crystals are a sign of improper freezing or temperature fluctuations, which can compromise the texture and overall quality of frozen meat."
+  },
+  {
+    "image_name": "image24.jpg",
+    "tags": [
+      "Product: Frozen pork tongue trim",
+      "Condition: Visible frost/ice crystals (NEEDS ATTENTION)",
+      "Liquid: Reddish liquid (purge/myoglobin) present at the bottom of the plastic bag (NEEDS ATTENTION)",
+      "Appearance: Some pieces show signs of discoloration, likely from freeze-thaw cycles"
+    ],
+    "location_desc": "Detailed close-up of the frozen product in its plastic packaging within the box.",
+    "manual_ref": [
+      "Page 2: 'If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture due to the slow formation of large ice crystals. This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration.'",
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": "Both frosting and significant purge indicate temperature abuse, leading to cell rupture, blood serum separation, and increased susceptibility to microbiological deterioration.",
+    "internet_ref_links": [
+      "Search Query: frozen meat thawed refrozen signs",
+      "Source Name: Unveiling Meat Purge: Exploring the Red Liquid Mystery in Your Steak - The Daily Meal",
+      "Standard Description: When frozen meat thaws, the ice crystals formed during freezing cut the muscle cells, causing water and myoglobin to leak out."
+    ],
+    "internet_ref_description": "Visible purge and frost are clear indicators of thawing and refreezing, which damages meat cells, reduces quality, and increases risk of spoilage."
+  },
+  {
+    "image_name": "image25.jpg",
+    "tags": [
+      "Temperature measurement tool: Southwire infrared thermometer",
+      "Temperature reading: -07.7 °C (NEEDS ATTENTION)",
+      "Max temperature observed: -07.7 °C (NEEDS ATTENTION)",
+      "Target: Frozen pork tongue trim"
+    ],
+    "location_desc": "A hand holding an infrared thermometer pointed at the frozen product, showing a temperature reading.",
+    "manual_ref": [
+      "Page 2: 'Temperature abuse: This covers a variety of possible issues... for frozen products these might include premature ripening, freezer burn, frosting and textural changes.'"
+    ],
+    "manual_ref_description": "A product temperature of -7.7°C is significantly warmer than the optimal -18°C for frozen meat, confirming temperature abuse and potential for product degradation.",
+    "internet_ref_links": [
+      "Search Query: USDA guidelines frozen meat temperature abuse",
+      "Source Name: Freezing and Food Safety - USDA",
+      "Standard Description: Food stored constantly at 0 °F (-18 °C) will always be safe. Only the quality suffers with lengthy freezer storage."
+    ],
+    "internet_ref_description": "Consistently maintaining frozen meat at 0°F (-18°C) or colder is crucial. Temperatures above this indicate a breach in the cold chain, affecting both safety and quality."
+  },
+  {
+    "image_name": "image26.jpg",
+    "tags": [
+      "Product: Frozen pork tongue trim",
+      "Condition: Visible frosting (NEEDS ATTENTION)",
+      "Liquid: Reddish liquid (purge/myoglobin) visible within the plastic bag (NEEDS ATTENTION)",
+      "Packaging: Blue plastic bag inside a cardboard carton"
+    ],
+    "location_desc": "Close-up of frozen product within an open box, showing frosting and liquid.",
+    "manual_ref": [
+      "Page 2: 'For fresh or frozen products these might include premature ripening, freezer burn, frosting and textural changes.'",
+      "Page 3: 'Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": "Frosting and purge indicate temperature abuse, specifically thawing and refreezing, which affects the texture and quality of the frozen product.",
+    "internet_ref_links": [
+      "Source Name: Ask USDA",
+      "Standard Description: Anything that breaks/disrupts the integrity of the muscle cells would cause more purge."
+    ],
+    "internet_ref_description": "The presence of purge is directly linked to cell damage caused by temperature fluctuations during freezing and thawing."
+  },
+  {
+    "image_name": "image27.jpg",
+    "tags": [
+      "Product: Frozen pork tongue trim, inside plastic packaging",
+      "Condition: Large, distinct ice crystals/frost visible inside the bag (NEEDS ATTENTION)",
+      "Appearance: Indicates significant moisture migration and potential dehydration of the product surface"
+    ],
+    "location_desc": "Very close-up of frost inside the product's plastic packaging.",
+    "manual_ref": [
+      "Page 2: 'Temperature abuse: This covers a variety of possible issues... for frozen products these might include premature ripening, freezer burn, frosting and textural changes.'",
+      "Page 3: 'The frosting is a second indicator that the product had suffered temperature abuse. Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": "The presence of large ice crystals and frosting confirms temperature abuse, where the product has thawed and refrozen.",
+    "internet_ref_links": [
+      "Search Query: large ice crystals frozen meat",
+      "Source Name: Why does blood leach out of a plastic freezer bag when meat is thawing? - Reddit",
+      "Standard Description: Slowly freezing meat allows large ice crystals to form. These large crystals rupture the cell membranes of the meat and, when defrosted, their contents leak out."
+    ],
+    "internet_ref_description": "Large ice crystals are a classic sign of slow freezing or repeated freeze-thaw cycles, leading to cell damage and quality loss in meat."
+  },
+  {
+    "image_name": "image28.jpg",
+    "tags": [
+      "Temperature measurement tool: Southwire infrared thermometer",
+      "Temperature reading: -09.3 °C (NEEDS ATTENTION)",
+      "Max temperature observed: -09.2 °C (NEEDS ATTENTION)",
+      "Target: Frozen pork tongue trim"
+    ],
+    "location_desc": "A hand holding an infrared thermometer pointed at the frozen product, showing a temperature reading.",
+    "manual_ref": [
+      "Page 2: 'Temperature abuse: This covers a variety of possible issues...'"
+    ],
+    "manual_ref_description": "A product temperature of -9.3°C is significantly warmer than the optimal -18°C for frozen meat, confirming temperature abuse.",
+    "internet_ref_links": [
+      "Source Name: Freezing and Food Safety - USDA",
+      "Standard Description: The optimal storage temperature for meat in the freezer is 0 degrees F (-18 degrees C)."
+    ],
+    "internet_ref_description": "Deviation from the recommended frozen storage temperature of 0°F (-18°C) indicates a potential breach in the cold chain, affecting product integrity."
+  },
+  {
+    "image_name": "image29.jpg",
+    "tags": [
+      "Product: Frozen pork tongue trim in plastic packaging",
+      "Liquid: Significant amount of reddish liquid (purge/myoglobin) collected in the bag (NEEDS ATTENTION)",
+      "Condition: Indicates substantial thawing and subsequent leakage from the product",
+      "Appearance: Meat appears partially defrosted and heavily purged"
+    ],
+    "location_desc": "Close-up of frozen product in plastic wrap with substantial liquid accumulation.",
+    "manual_ref": [
+      "Page 2: 'If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture due to the slow formation of large ice crystals. This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration.'"
+    ],
+    "manual_ref_description": "The large volume of purge signifies extensive cell damage from thawing, making the meat less attractive and more susceptible to spoilage.",
+    "internet_ref_links": [
+      "Source Name: Unveiling Meat Purge: Exploring the Red Liquid Mystery in Your Steak - The Daily Meal",
+      "Standard Description: Avoid packages with excessive purge to ensure better-tasting and juicier steaks. Purge indicates moisture loss in meat, affecting flavor and tenderness."
+    ],
+    "internet_ref_description": "Excessive purge is a critical sign of product degradation due to thawing, leading to significant loss of moisture, flavor, and texture."
+  },
+  {
+    "image_name": "image30.jpg",
+    "tags": [
+      "Product: Frozen pork tongue trim",
+      "Condition: Visible frosting and reddish liquid (purge/myoglobin) in the plastic packaging (NEEDS ATTENTION)",
+      "Packaging: Blue plastic bag inside a cardboard carton"
+    ],
+    "location_desc": "Another view of frozen product within an open box, showing frosting and liquid.",
+    "manual_ref": [
+      "Page 2: 'For fresh or frozen products these might include premature ripening, freezer burn, frosting and textural changes.'",
+      "Page 3: 'Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": "Both frosting and purge indicate temperature abuse, consistent with thawing and refreezing, negatively impacting product quality.",
+    "internet_ref_links": [
+      "Source Name: Ask USDA",
+      "Standard Description: Anything that breaks/disrupts the integrity of the muscle cells would cause more purge."
+    ],
+    "internet_ref_description": "The combined presence of frost and purge suggests repeated temperature fluctuations, leading to structural damage to the meat cells."
+  },
+  {
+    "image_name": "image31.jpg",
+    "tags": [
+      "Temperature measurement tool: Southwire infrared thermometer",
+      "Temperature reading: -10.0 °C (NEEDS ATTENTION)",
+      "Max temperature observed: -10.0 °C (NEEDS ATTENTION)",
+      "Target: Frozen pork tongue trim"
+    ],
+    "location_desc": "A hand holding an infrared thermometer pointed at the frozen product, showing a temperature reading.",
+    "manual_ref": [
+      "Page 2: 'Temperature abuse: This covers a variety of possible issues...'"
+    ],
+    "manual_ref_description": "A product temperature of -10.0°C is significantly warmer than the optimal -18°C for frozen meat, confirming severe temperature abuse.",
+    "internet_ref_links": [
+      "Source Name: Freezing and Food Safety - USDA",
+      "Standard Description: The optimal storage temperature for meat in the freezer is 0 degrees F (-18 degrees C)."
+    ],
+    "internet_ref_description": "Temperatures consistently above the recommended 0°F (-18°C) for frozen meat indicate a critical failure in maintaining the cold chain, leading to product compromise."
+  },
+  {
+    "image_name": "image32.jpg",
+    "tags": [
+      "Product: Frozen pork tongue trim in plastic wrap",
+      "Liquid: Reddish liquid (purge/myoglobin) visible within the plastic wrap (NEEDS ATTENTION)",
+      "Condition: Product appears softened and discolored due to thawing and purge",
+      "Packaging: Clear plastic wrap"
+    ],
+    "location_desc": "Close-up of product in plastic wrap with visible blood-like liquid.",
+    "manual_ref": [
+      "Page 2: 'If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture due to the slow formation of large ice crystals. This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration.'"
+    ],
+    "manual_ref_description": "The presence of significant reddish liquid (purge) strongly indicates cell rupture and quality degradation from temperature abuse, making the product less desirable and potentially unsafe.",
+    "internet_ref_links": [
+      "Source Name: Unveiling Meat Purge: Exploring the Red Liquid Mystery in Your Steak - The Daily Meal",
+      "Standard Description: This liquid is a combination of water and myoglobin, a protein that transports oxygen in muscle cells. As the meat ages, the muscle tissue breaks down, causing the liquid and myoglobin to leak out."
+    ],
+    "internet_ref_description": "Visible purge signifies thawing and breakdown of muscle tissue, which compromises the meat's quality attributes such as juiciness and texture."
+  },
+  {
+    "image_name": "image33.jpg",
+    "tags": [
+      "Product: Frozen pork tongue trim",
+      "Condition: Extensive frosting/ice crystals visible on the product surface (NEEDS ATTENTION)",
+      "Appearance: Indicates significant moisture loss and likely freezer burn in areas not covered by frost"
+    ],
+    "location_desc": "Close-up of frozen product with visible frost.",
+    "manual_ref": [
+      "Page 2: 'Temperature abuse: This covers a variety of possible issues... for frozen products these might include premature ripening, freezer burn, frosting and textural changes.'",
+      "Page 3: 'Frosting appears when a product is thawed and then partially refrozen.'"
+    ],
+    "manual_ref_description": "Heavy frosting confirms significant temperature abuse, leading to repeated thawing and refreezing, severely affecting product quality and potentially causing freezer burn.",
+    "internet_ref_links": [
+      "Source Name: Freezing and Food Safety - USDA",
+      "Standard Description: The quality of frozen foods can suffer with lengthy freezer storage or fluctuating temperatures."
+    ],
+    "internet_ref_description": "Pronounced frost and ice crystal formation are indicators of quality deterioration due to freeze-thaw cycles or prolonged improper storage."
+  },
+  {
+    "image_name": "image34.jpg",
+    "tags": [
+      "Temperature measurement tool: Southwire infrared thermometer",
+      "Temperature reading: -09.2 °C (NEEDS ATTENTION)",
+      "Max temperature observed: -09.2 °C (NEEDS ATTENTION)",
+      "Target: Frozen pork tongue trim"
+    ],
+    "location_desc": "A hand holding an infrared thermometer pointed at the frozen product, showing a temperature reading.",
+    "manual_ref": [
+      "Page 2: 'Temperature abuse: This covers a variety of possible issues...'"
+    ],
+    "manual_ref_description": "A product temperature of -9.2°C is significantly warmer than the optimal -18°C for frozen meat, indicating temperature abuse.",
+    "internet_ref_links": [
+      "Source Name: Freezing and Food Safety - USDA",
+      "Standard Description: The optimal storage temperature for meat in the freezer is 0 degrees F (-18 degrees C)."
+    ],
+    "internet_ref_description": "Consistent readings above 0°F (-18°C) for frozen meat highlight a persistent issue in maintaining the required cold chain, impacting product quality and safety."
+  },
+  {
+    "image_name": "image36.jpg",
+    "tags": [
+      "Security seal: Yellow plastic bolt seal, intact",
+      "Seal number: 0004004",
+      "Company branding: AMERICOLD"
+    ],
+    "location_desc": "Close-up of a container door locking bar with an intact security seal.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: USDA Food Defense Guidelines seal integrity",
+      "Source Name: USDA Food Defense Guidelines for Transportation and Distribution of Meat, Poultry and Processed Egg Products",
+      "Standard Description: Have a strictly enforced seal program. Identify and require seal specifications (e.g., tamper-proof, numbered seals, etc.). Inspect shipping containers closely for any evidence of tampering."
+    ],
+    "internet_ref_description": "USDA guidelines require verification of seal numbers and integrity throughout the distribution process as a critical food defense measure."
+  },
+  {
+    "image_name": "image37.jpg",
+    "tags": [
+      "Official document: U.S. DEPARTMENT OF AGRICULTURE FOOD SAFETY AND INSPECTION SERVICE",
+      "Status: U.S. REJECTED (checked) (NEEDS ATTENTION)",
+      "Tag ID: NO. B 30 333802",
+      "Instructions: This tag may be detached only by an authorized employee of the United States Department of Agriculture."
+    ],
+    "location_desc": "Hand holding an official USDA 'REJECTED' tag.",
+    "manual_ref": [],
+    "manual_ref_description": [],
+    "internet_ref_links": [
+      "Search Query: USDA rejected shipment procedures",
+      "Source Name: Instruction 709-5: SHIPMENT AND RECEIPT OF USDA FOODS - USDA",
+      "Standard Description: Rejected Shipment. Official Contracting Officer determination, upon consideration of an SDA or ITO refused shipment request with regard to out-of-condition USDA Foods. A shipment that has been rejected must leave the consignee's property when/if requested by the consignee."
+    ],
+    "internet_ref_description": "A 'U.S. REJECTED' tag indicates the cargo has been deemed unacceptable by the USDA Food Safety and Inspection Service, necessitating its removal or specific disposition."
+  },
+  {
+    "image_name": "image38.jpg",
+    "tags": [
+      "Official document: U.S. DEPARTMENT OF AGRICULTURE FOOD SAFETY AND INSPECTION SERVICE",
+      "Status: U.S. REJECTED (checked) (NEEDS ATTENTION)",
+      "Item tagged and location: TRAILER - Pig Tongue",
+      "Reason for tagging: Thawed / Leaky / Bad smell (NEEDS ATTENTION)",
+      "Date of tag application: 12/20/24 (December 20, 2024)",
+      "Tag applied by: P. Cur",
+      "Inconsistency: The rejection date (12/20/24) predates the pack date of the cargo shown in Image 21 (11/12/25), suggesting this tag might be from a prior incident or a different consignment, or indicates a severe chronological discrepancy in the documentation provided for *this* shipment, which would require further investigation by a surveyor. (NEEDS ATTENTION)"
+    ],
+    "location_desc": "Hand holding an official USDA 'REJECTED' tag with specific rejection details.",
+    "manual_ref": [
+      "Page 2: 'If the temperature of chilled meat falls below -1.4 °C during storage it can cause muscle cell rupture due to the slow formation of large ice crystals. This in turn leads to blood serum separation making the meat less attractive to the customer and more susceptible to microbiological deterioration.'"
+    ],
+    "manual_ref_description": "The reasons for rejection ('Thawed / Leaky / Bad smell') are consistent with severe temperature abuse and spoilage outlined in the manual's discussion of frozen meat issues.",
+    "internet_ref_links": [
+      "Search Query: USDA refused entry meat reasons",
+      "Source Name: Instruction 709-5: SHIPMENT AND RECEIPT OF USDA FOODS - USDA",
+      "Standard Description: A consignee request to FNS to refuse to unload all or part of a shipment due to there being a question about out-of-condition USDA Foods or USDA Foods not otherwise meeting contractual requirements."
+    ],
+    "internet_ref_description": "Rejection for 'Thawed / Leaky / Bad smell' indicates critical failures in temperature control and product integrity, leading to spoilage and making the product unsafe for consumption."
+  }
+]

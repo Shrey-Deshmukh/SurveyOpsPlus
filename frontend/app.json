@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "SurveyOpsPlus",
+    "slug": "surveyopsplus.frontend",
+    "version": "0.5.0",
+    "icon": "./assets/images/surveyopsplus-logo-app-icon.png",
+    "orientation": "portrait",
+    "scheme": "surveyopsplus.frontend",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/surveyopsplus-logo-splashscreen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ddd4cc"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.surveyopsplus.frontend"
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.surveyopsplus.frontend",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/surveyopsplus-logo-app-icon.png",
+        "backgroundColor": "#ddd4cc"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_VISUAL_USER_SELECTED",
+        "android.permission.READ_MEDIA_IMAGES"
+      ]
+    },
+    "web": {},
+    "plugins": [
+      "expo-router",
+      "./plugins/withDetoxAndroid",
+      ["expo-splash-screen"],
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Allow SurveyOpsPlus to access your camera for project photos."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow SurveyOpsPlus to access your photos for project media.",
+          "savePhotosPermission": "Allow SurveyOpsPlus to save captured photos to your library.",
+          "granularPermissions": ["photo"]
+        }
+      ],
+      "expo-sqlite",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

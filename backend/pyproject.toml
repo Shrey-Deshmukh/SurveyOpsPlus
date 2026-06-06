@@ -1,0 +1,15 @@
+[project]
+name = "survey-ops-plus"
+version = "0.1.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests/"]
+# _IT is reserved for integration tests
+python_files = ["test_*.py", "*_test.py", "*_IT.py"]
+pythonpath = ["."]
+addopts = "-v --strict-markers"
+
+markers = [
+    "unit: Unit Tests",
+    "integration: Integration Tests"
+]

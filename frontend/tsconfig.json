@@ -1,0 +1,27 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true, // <-- Allows TS to read .js/.mjs files
+    "checkJs": true, // <-- Allows TS to type-check .js/.mjs files
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "nativewind-env.d.ts",
+    "globals.d.ts" // <-- global custom types file
+  ],
+  "exclude": [
+    "android",
+    "ios",
+    "node_modules",
+    "artifacts",
+    "dist",
+    "web-build"
+  ]
+}
