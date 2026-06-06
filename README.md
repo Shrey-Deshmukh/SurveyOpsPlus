@@ -42,13 +42,21 @@ The surveyor captures photos in the field. The system handles tagging, analysis,
 ## ✨ Features
 
 ✅ **Offline-first mobile app** — images queue locally in SQLite and sync when connectivity is restored
+
 ✅ **Field Capture** — Capture or upload survey images directly from an iOS/Android mobile app
+
 ✅ **AI Image Tagging** — Gemini 2.5 Flash analyzes each image against compliance manuals and extracts structured observations as tags (damage type, container IDs, temperature readings, seal conditions)
+
 ✅ **Automated Report Drafting** — Tags are assembled with a report template and sample reports to generate a professional `.docx` draft
+
 ✅ **Judge LLM Eval Pipeline** — A second LLM instance scores each generated report against a rubric across 8 categories for automated quality assurance
+
 ✅ **Evidence Grounding** — Every claim is traceable back to a specific image; the model is explicitly prompted to make no unsupported claims
+
 ✅ **Human-in-the-Loop** — Expert review and sign-off before any report is finalized
+
 ✅ **Cloud Sync** — Images and project data sync to Dropbox/S3 with offline-first support
+
 ✅ **Report Export** — Download the final report as a `.docx` file
 
 ---
